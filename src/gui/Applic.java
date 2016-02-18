@@ -22,6 +22,7 @@ public class Applic extends Application {
     @Override
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Clara");
+        
 
     }
 }
