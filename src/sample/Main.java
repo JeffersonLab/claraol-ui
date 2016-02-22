@@ -15,7 +15,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
 
-        // Extract design from FXMl file win.fxml
+        // Extract design from FXMl file service.fxml
         Parent root = FXMLLoader.load(getClass().getResource("win.fxml"));
 
         // Designate design and initial consitions for the primary stage.
