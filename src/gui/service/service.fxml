@@ -8,7 +8,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="349.0"
             prefWidth="350.0" style="-fx-background-color: black;"
-            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.service.Controller">
     <Line endX="100.0" fill="WHITE" layoutX="242.0" layoutY="328.0" startX="-100.0" stroke="#787878" strokeWidth="2.0"
           translateX="5.0" translateY="16.0"/>
     <Line endX="100.0" fill="WHITE" layoutX="105.0" layoutY="344.0" startX="-100.0" stroke="#787878" strokeWidth="2.0"/>
