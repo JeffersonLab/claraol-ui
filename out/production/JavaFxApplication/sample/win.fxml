@@ -6,6 +6,7 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
+
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="445.0"
       prefWidth="700.0"
       style="-fx-background-color: linear-gradient(to bottom, rgba(184,184,184,1) 0%,rgba(138,138,138,1) 51%, rgba(94,94,94,1) 100%);"
