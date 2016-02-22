@@ -25,8 +25,9 @@ public class Main extends Application {
 
         // Designate the positioning of the stage.
         Rectangle2D primaryScreenBounds = Screen.getPrimary().getVisualBounds();
-        primaryStage.setX(primaryScreenBounds.getMinX() + primaryScreenBounds.getWidth() - 1400);
-        primaryStage.setY(primaryScreenBounds.getMinY() + primaryScreenBounds.getHeight() - 850);
+        double x = ((0.95) * primaryScreenBounds.getWidth()), y = (0.93) * primaryScreenBounds.getHeight();
+        primaryStage.setX(primaryScreenBounds.getMinX() + primaryScreenBounds.getWidth() - x);
+        primaryStage.setY(primaryScreenBounds.getMinY() + primaryScreenBounds.getHeight() - y);
 
         // Make the stage visible
         primaryStage.show();
