@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="445.0"
+      prefWidth="700.0"
+      style="-fx-background-color: linear-gradient(to bottom, rgba(184,184,184,1) 0%,rgba(138,138,138,1) 51%, rgba(94,94,94,1) 100%);"
+      xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="sample.Controller">
+
+    <HBox prefHeight="22.0" prefWidth="700.0"
+          style="-fx-background-color: linear-gradient(to top,derive(#303030,-30%), derive(-fx-base,-70%));">
+
+        <HBox alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="41.0">
+            <Button fx:id="close_button" mnemonicParsing="false" prefHeight="15.0" prefWidth="3.0"
+                    style="-fx-border-radius: 12px;" styleClass="singleplaced" stylesheets="@style-Buttons.css"
+                    text="X" textAlignment="CENTER" textFill="#838383">
+                <font>
+                    <Font size="7.0"/>
+                </font>
+            </Button>
+        </HBox>
+        <Label alignment="CENTER" prefHeight="22.0" prefWidth="638.0" text="Clara" textAlignment="CENTER"
+               textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0"/>
+            </font>
+        </Label>
+    </HBox>
+    <ToolBar layoutX="6.0" layoutY="28.0" prefHeight="37.0" prefWidth="687.0"
+             style="-fx-background-color:linear-gradient(to top, derive(#404040,-30%), derive(-fx-base,-60%)); -fx-background-insets: 0, 0 0 1 0;-fx-effect: dropshadow(two-pass-box,black,5,.2,0,0);"
+             stylesheets="@style-Buttons.css">
+        <Button mnemonicParsing="false" prefHeight="12.0" prefWidth="144.0" style="-fx-border-radius: 12px;"
+                styleClass="singleplaced" stylesheets="@style-Buttons.css" text="Select Service"
+                textAlignment="CENTER" textFill="WHITE">
+
+            <font>
+                <Font size="12.0"/>
+            </font>
+        </Button>
+        <HBox alignment="CENTER_RIGHT" prefHeight="25.0" prefWidth="523.0"
+              style="-fx-background-radius: 9 9 9 9, 7 7 7 7, 7 7 7 7;">
+            <Label prefHeight="16.0" prefWidth="82.0" text="Actions:" textFill="WHITE">
+                <font>
+                    <Font name="System Bold" size="15.0"/>
+                </font>
+            </Label>
+            <Button mnemonicParsing="false" styleClass="first" stylesheets="@style-Buttons.css" text="► Start"
+                    textFill="WHITE"/>
+            <Button mnemonicParsing="false" text="■ Stop" textFill="WHITE"/>
+            <Button mnemonicParsing="false" styleClass="last" stylesheets="@style-Buttons.css" text="Skip"
+                    textFill="WHITE"/>
+        </HBox>
+    </ToolBar>
+    <Label layoutX="14.0" layoutY="72.0" prefHeight="57.0" prefWidth="167.0"
+           text="You should select a service below, and to the left are actions on the service." wrapText="true"/>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" height="380.0" layoutX="190.0" layoutY="65.0" stroke="TRANSPARENT"
+               strokeType="INSIDE" width="4.0">
+        <fill>
+          <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+              <stops>
+                  <Stop color="#5e5e5e"/>
+                  <Stop color="#ebebeba3" offset="1.0"/>
+              </stops>
+          </LinearGradient>
+        </fill>
+    </Rectangle>
+    <ComboBox layoutX="9.0" layoutY="136.0" prefHeight="26.0" prefWidth="156.0" promptText="Select a Service"
+              stylesheets="@style-Combobox.css"/>
+    <Label layoutX="231.0" layoutY="93.0" prefHeight="18.0" prefWidth="95.0" text="Composition:" textFill="WHITE">
+        <font>
+          <Font size="14.0"/>
+        </font>
+    </Label>
+    <TextField editable="false" layoutX="326.0" layoutY="88.0" prefHeight="26.0" prefWidth="354.0"
+               promptText="The String Composition will go in here"/>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6f6f6f" height="3.0" layoutX="214.0" layoutY="136.0" stroke="BLACK"
+               strokeType="INSIDE" strokeWidth="0.0" width="472.0"/>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6f6f6f" height="22.0" layoutX="212.0" layoutY="139.0"
+               stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="4.0"/>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6f6f6f" height="22.0" layoutX="684.0" layoutY="138.0"
+               stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="4.0"/>
+    <Label layoutX="231.0" layoutY="154.0" prefHeight="26.0" prefWidth="114.0" text="Service Selected: "
+           textFill="WHITE"/>
+    <TextField editable="false" layoutX="340.0" layoutY="154.0" prefHeight="26.0" prefWidth="265.0"
+               promptText="This is the Service you Selected"/>
+    <Label layoutX="231.0" layoutY="191.0" prefHeight="49.0" prefWidth="297.0"
+           text="The Event information is presented below, and an Extended window into more information."
+           textFill="WHITE" wrapText="true"/>
+    <Label layoutX="268.0" layoutY="290.0" prefHeight="18.0" prefWidth="68.0" text="EventSink: " textFill="WHITE"/>
+    <Label layoutX="252.0" layoutY="257.0" prefHeight="25.0" prefWidth="88.0" text="EventSource: " textFill="WHITE"/>
+    <TextField editable="false" layoutX="340.0" layoutY="257.0" prefHeight="26.0" prefWidth="227.0"
+               promptText="Event Source will Appear here"/>
+    <TextField editable="false" layoutX="340.0" layoutY="286.0" prefHeight="26.0" prefWidth="227.0"
+               promptText="EventSink will appear here"/>
+    <Button layoutX="477.0" layoutY="374.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="192.0"
+            style="-fx-border-radius: 12px;" styleClass="last" stylesheets="@style-Buttons.css"
+            text="Advanced Service Options" textAlignment="CENTER" textFill="WHITE">
+        <font>
+          <Font size="12.0"/>
+        </font>
+    </Button>
+    <Button layoutX="364.0" layoutY="374.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0"
+            style="-fx-border-radius: 12px;" styleClass="first" stylesheets="@style-Buttons.css" text="Add Service"
+            textAlignment="CENTER" textFill="WHITE">
+        <font>
+          <Font size="12.0"/>
+        </font>
+    </Button>
+</Pane>
