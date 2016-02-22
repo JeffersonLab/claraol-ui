@@ -35,7 +35,7 @@ public class Controller implements Initializable {
             public void handle(ActionEvent event) {
                 Parent root;
                 try {
-                    root = FXMLLoader.load(getClass().getResource("service.fxml"));
+                    root = FXMLLoader.load(getClass().getResource("../gui/service/service.fxml"));
                     Stage stage = Main.Win(root);
                     stage.show();
                 } catch (Exception e) {
