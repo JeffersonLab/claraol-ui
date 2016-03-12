@@ -20,7 +20,7 @@ public class Main extends Application {
 
         // Designate design and initial consitions for the primary stage.
         primaryStage.setTitle("Clara");
-        primaryStage.setScene(new Scene(root, 700, 445, Color.TRANSPARENT));
+        primaryStage.setScene(new Scene(root, 700, 300, Color.TRANSPARENT));
         primaryStage.initStyle(StageStyle.TRANSPARENT);
 
         // Designate the positioning of the stage.
