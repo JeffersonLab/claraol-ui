@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="229.0"
+      prefWidth="341.0" style="-fx-background-color: #181818;"
+      xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="29.0" prefWidth="341.0"
+            style="-fx-border-color: transparent transparent #B8B8B8 transparent;">
+         <children>
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="217.0"
+                   text="Identity Components given below:" textFill="#b8b8b8" />
+         </children>
+      </HBox>
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="56.0" prefHeight="16.0" prefWidth="80.0" text="Author"
+             textFill="#b8b8b8" />
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="88.0" prefHeight="16.0" prefWidth="80.0" text="Name"
+             textFill="#b8b8b8" />
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="121.0" prefHeight="16.0" prefWidth="80.0" text="Version"
+             textFill="#b8b8b8" />
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="152.0" prefHeight="16.0" prefWidth="80.0"
+             text="Description" textFill="#b8b8b8" />
+      <TextField alignment="CENTER" layoutX="112.0" layoutY="51.0" prefHeight="16.0" prefWidth="204.0"
+                 promptText="Author"
+                 style="-fx-background-color: transparent; -fx-border-color: #B8B8B8; -fx-text-fill: #F8F8F8;" />
+      <TextField alignment="CENTER" layoutX="112.0" layoutY="82.0" prefHeight="16.0" prefWidth="204.0"
+                 promptText="Name"
+                 style="-fx-background-color: transparent; -fx-border-color: #B8B8B8; -fx-text-fill: #F8F8F8;" />
+      <TextField alignment="CENTER" layoutX="112.0" layoutY="115.0" prefHeight="16.0" prefWidth="204.0"
+                 promptText="Version"
+                 style="-fx-background-color: transparent; -fx-border-color: #B8B8B8; -fx-text-fill: #F8F8F8;" />
+      <TextArea layoutX="112.0" layoutY="150.0" prefHeight="66.0" prefWidth="204.0" promptText="Description..."
+                stylesheets="@style.css" wrapText="true">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font size="11.0" />
+         </font>
+      </TextArea>
+   </children>
+</Pane>
