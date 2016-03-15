@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="198.0"
+      prefWidth="360.0" style="-fx-background-color: #080808;"
+      xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="22.0" prefWidth="360.0"
+            style="-fx-background-color: #282828; -fx-border-color: transparent transparent #a8a8a8 transparent;">
+         <children>
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="203.0" text="Data Set" textFill="#cdcdcd">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Label alignment="CENTER_RIGHT" layoutX="18.0" layoutY="49.0" prefHeight="16.0" prefWidth="144.0"
+             text="Output File Prefix" textFill="#cdcdcd" />
+      <Label alignment="CENTER_RIGHT" layoutX="18.0" layoutY="91.0" prefHeight="16.0" prefWidth="144.0"
+             text="Output File Suffix" textFill="#cdcdcd" />
+      <TextField alignment="CENTER" layoutX="177.0" layoutY="44.0" promptText="Prefix"
+                 style="-fx-background-color: #001000; -fx-text-fill: #FFFFFF; -fx-border-color: #a3a3a3;" />
+      <TextField alignment="CENTER" layoutX="177.0" layoutY="85.0" promptText="Suffix"
+                 style="-fx-background-color: #001000; -fx-text-fill: #FFFFFF; -fx-border-color: #a3a3a3;" />
+      <Button layoutX="14.0" layoutY="139.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="153.0"
+              stylesheets="@../action/button.css" text="Output Source" />
+      <Button layoutX="193.0" layoutY="139.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="153.0"
+              stylesheets="@../action/button.css" text="Input Source" />
+   </children>
+</Pane>
