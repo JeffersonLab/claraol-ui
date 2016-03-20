@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="173.0"
+      prefWidth="398.0" style="-fx-background-color: #181818;"
+      xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="397.0"
+            style="-fx-border-color: #181818 #181818 #c7c7c7 #181818;">
+         <children>
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="265.0"
+                   text="Service Configuration" textFill="#dadada" />
+         </children>
+      </HBox>
+      <Pane layoutX="14.0" layoutY="38.0" prefHeight="120.0" prefWidth="374.0"
+            style="-fx-border-color: transparent transparent #c5c5c5 transparent;">
+         <children>
+            <ProgressBar layoutX="138.0" layoutY="12.0" prefHeight="20.0" prefWidth="222.0" />
+            <Label alignment="CENTER_RIGHT" layoutX="9.0" layoutY="14.0" prefHeight="16.0" prefWidth="112.0"
+                   text="Broadcast: " textFill="#dddddd" />
+            <Label alignment="CENTER_RIGHT" layoutX="8.0" layoutY="44.0" prefHeight="16.0" prefWidth="112.0"
+                   text="Status:" textFill="#dddddd" />
+            <TextField alignment="CENTER" layoutX="138.0" layoutY="38.0" prefHeight="15.0" prefWidth="222.0"
+                       promptText="&lt;braodcast status&gt;"
+                       style="-fx-background-color: #282828; -fx-border-color: #c7c7c7; -fx-text-fill: #FFFFFF;" />
+            <TextField alignment="CENTER" layoutX="138.0" layoutY="77.0" prefHeight="15.0"
+                       prefWidth="222.0" promptText="&lt;N/A&gt;"
+                       style="-fx-background-color: #282828; -fx-border-color: #c7c7c7; -fx-text-fill: #FFFFFF;" />
+            <Label alignment="CENTER_RIGHT" layoutX="8.0" layoutY="83.0" prefHeight="16.0" prefWidth="112.0"
+                   text="Warnings/Errors:" textFill="#dddddd" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
