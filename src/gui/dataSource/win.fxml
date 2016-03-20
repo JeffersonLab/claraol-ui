@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<!--   Height: 191.0  Width: 330.0 -->
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="191.0"
+      prefWidth="330.0" style="-fx-background-color: #181818;"
+      xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER_LEFT" layoutX="2.0" prefHeight="26.0" prefWidth="325.0"
+            style="-fx-border-color: #181818 #181818 #B8B8B8 #181818;">
+         <children>
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="202.0" text="Data Source"
+                   textFill="#eeeeee" />
+         </children>
+      </HBox>
+      <Label alignment="CENTER_RIGHT" layoutX="6.0" layoutY="39.0" prefHeight="16.0" prefWidth="87.0"
+             text="Directory" textFill="WHITE" />
+      <TextField alignment="CENTER" layoutX="102.0" layoutY="34.0" prefHeight="26.0" prefWidth="213.0"
+                 promptText="Boolean is there a Dir?"
+                 style="-fx-background-color: transparent; -fx-border-color: #B8B8B8; -fx-text-fill: #FFFFFF;">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="102.0" layoutY="73.0" prefHeight="26.0" prefWidth="213.0"
+                 promptText="Boolean is there a FIle?"
+                 style="-fx-background-color: transparent; -fx-border-color: #B8B8B8; -fx-text-fill: #FFFFFF;">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER_RIGHT" layoutX="6.0" layoutY="78.0" prefHeight="16.0" prefWidth="87.0" text="File"
+             textFill="WHITE" />
+      <TextField alignment="CENTER" layoutX="102.0" layoutY="111.0" prefHeight="26.0" prefWidth="213.0"
+                 promptText="Clara Data type"
+                 style="-fx-background-color: transparent; -fx-border-color: #B8B8B8; -fx-text-fill: #FFFFFF;">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER_RIGHT" layoutX="6.0" layoutY="116.0" prefHeight="16.0" prefWidth="87.0" text="Type"
+             textFill="WHITE" />
+      <TextField alignment="CENTER" layoutX="102.0" layoutY="149.0" prefHeight="26.0" prefWidth="213.0"
+                 promptText="String value"
+                 style="-fx-background-color: transparent; -fx-border-color: #B8B8B8; -fx-text-fill: #FFFFFF;">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER_RIGHT" layoutX="6.0" layoutY="154.0" prefHeight="16.0" prefWidth="87.0"
+             text="Value" textFill="WHITE" />
+   </children>
+</Pane>
