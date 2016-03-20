@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="166.0"
+      prefWidth="320.0" style="-fx-background-color: #181818;"
+      xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="28.0" prefWidth="319.0"
+            style="-fx-border-color: #181818 #181818 #b8b8b8 #181818;">
+         <children>
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="182.0" text="Engine"
+                   textFill="#d7d7d7" />
+         </children>
+      </HBox>
+      <Label alignment="CENTER_RIGHT" layoutY="44.0" prefHeight="16.0" prefWidth="113.0" text="Library Path"
+             textFill="WHITE" />
+      <TextField alignment="CENTER" layoutX="121.0" layoutY="38.0" prefHeight="28.0" prefWidth="190.0"
+                 promptText="&lt;hasLibraryPath&gt;"
+                 style="-fx-background-color: transparent; -fx-border-color: #c8c8c8; -fx-text-fill: #FFFFFF;" />
+      <TextField alignment="CENTER" layoutX="121.0" layoutY="79.0" prefHeight="28.0" prefWidth="190.0"
+                 promptText="&lt;hasLibrary&gt;"
+                 style="-fx-background-color: transparent; -fx-border-color: #c8c8c8; -fx-text-fill: #FFFFFF;" />
+      <Label alignment="CENTER_RIGHT" layoutY="85.0" prefHeight="16.0" prefWidth="113.0" text="Library"
+             textFill="WHITE" />
+      <Button layoutX="159.0" layoutY="120.0" mnemonicParsing="false" stylesheets="@../action/button.css"
+              text="Configure" />
+   </children>
+</Pane>
