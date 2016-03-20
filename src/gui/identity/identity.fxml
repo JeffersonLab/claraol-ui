@@ -6,6 +6,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
+<!-- Height 229.0, Width 341.0-->
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="229.0"
       prefWidth="341.0" style="-fx-background-color: #181818;"
