@@ -2,6 +2,7 @@
 #Clara Ontology Language Editor ~(claraol-ui)
 ####Graphical user interface for describing CLARA data processing application details.
 
+##Introduction and Description
 Description
 -----------
 To describe data processing application Clara provides a simple modeling language. This is a textual representation of the data-flow diagram of a service based application. It simply describes data routing schema between services. Data routing information is stored within the transient metadata in the composition field. This simple modeling language can be visualized by means of a very general kind of directed graph, whose vertices are services and edges are data links.
@@ -18,3 +19,9 @@ The predicate of a statement is the property of a described subject, value of wh
 RDF triples can be visualized as a directed labeled graph, in which subjects and objects are represented as nodes, and predicates as arcs.
 
 We think that ClaraOL is complete enough to describe wide variety of data processing applications, including compile time description, such as service configuration, application algorithm (loops, conditional statements, etc.), as well as run-time description and control, such as workflow (orchestration), dataflow management. Yet, we realize that the language will evolve over time based on future application design requirements.
+
+##For Developers
+Source
+------
+All source files are located under the `./src` directory. There are no dependencies as of yet, however, that may change when the Backend gets uploaded.
+The files are organized in packages for easy use with the <b>IntelliJ IDE</b>.
