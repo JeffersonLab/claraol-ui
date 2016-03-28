@@ -20,11 +20,7 @@
  *   Department of Experimental Nuclear Physics, Jefferson Lab.
  */
 
-package org.jlab.clara.claraol;
-
-import org.protege.owl.codegeneration.WrappedIndividual;
-import org.semanticweb.owlapi.model.OWLNamedIndividual;
-import org.semanticweb.owlapi.model.OWLOntology;
+package gui.backend;
 
 import java.util.Collection;
 
@@ -36,7 +32,7 @@ import java.util.Collection;
  * @version generated on Sat Jan 30 17:43:59 EST 2016 by gurjyan
  */
 
-public interface ServiceConfig extends WrappedIndividual {
+public interface ServiceConfig {
 
     /* ***************************************************
      * Property http://claraweb.jlab.org/ontology/2015/11/ClaraOL#broadcastDone
@@ -137,16 +133,6 @@ public interface ServiceConfig extends WrappedIndividual {
      * @param oldBroadcastWarning the broadcastWarning property value to be removed.
      */
     void removeBroadcastWarning(Boolean oldBroadcastWarning);
-
-
-
-    /* ***************************************************
-     * Common interfaces
-     */
-
-    OWLNamedIndividual getOwlIndividual();
-
-    OWLOntology getOwlOntology();
 
     void delete();
 

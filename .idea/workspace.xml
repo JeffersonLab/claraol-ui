@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e0502c6-7dba-468d-9013-d224fd6b1dd2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/backend/Action.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/backend/Application.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/backend/Condition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/backend/DataSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/backend/DataSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/backend/Engine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/backend/EngineConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/backend/Identity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/backend/Orchestrator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/backend/Service.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/backend/ServiceConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/backend/State.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/service/service_example.fxml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/description.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/backend/Action.java" afterPath="$PROJECT_DIR$/src/gui/backend/Action.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/backend/Application.java" afterPath="$PROJECT_DIR$/src/gui/backend/Application.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/backend/Condition.java" afterPath="$PROJECT_DIR$/src/gui/backend/Condition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/backend/DataSet.java" afterPath="$PROJECT_DIR$/src/gui/backend/DataSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/backend/DataSource.java" afterPath="$PROJECT_DIR$/src/gui/backend/DataSource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/backend/Engine.java" afterPath="$PROJECT_DIR$/src/gui/backend/Engine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/backend/EngineConfig.java" afterPath="$PROJECT_DIR$/src/gui/backend/EngineConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/backend/Identity.java" afterPath="$PROJECT_DIR$/src/gui/backend/Identity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/backend/Orchestrator.java" afterPath="$PROJECT_DIR$/src/gui/backend/Orchestrator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/backend/Service.java" afterPath="$PROJECT_DIR$/src/gui/backend/Service.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/backend/ServiceConfig.java" afterPath="$PROJECT_DIR$/src/gui/backend/ServiceConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/backend/State.java" afterPath="$PROJECT_DIR$/src/gui/backend/State.java" />
     </list>
     <ignored path="claraol-ui.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,34 +37,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="service.fxml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/gui/service/service.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
+      <file leaf-file-name="DataSet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/backend/DataSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            <state relative-caret-position="153">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/service/Controller.java">
+      <file leaf-file-name="DataSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/backend/DataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="787">
+              <caret line="200" column="0" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/service/Main.java">
+      <file leaf-file-name="Engine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/backend/Engine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="804">
+              <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EngineConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/backend/EngineConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="821">
+              <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Identity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/backend/Identity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="821">
+              <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Orchestrator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/backend/Orchestrator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="804">
+              <caret line="266" column="0" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Service.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/backend/Service.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="821">
+              <caret line="332" column="0" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/backend/ServiceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="821">
+              <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/backend/State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Action.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/gui/backend/Action.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,6 +151,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/gui/service/service.fxml" />
+        <option value="$PROJECT_DIR$/src/gui/backend/Action.java" />
+        <option value="$PROJECT_DIR$/src/gui/backend/Application.java" />
+        <option value="$PROJECT_DIR$/src/gui/backend/Condition.java" />
+        <option value="$PROJECT_DIR$/src/gui/backend/DataSet.java" />
+        <option value="$PROJECT_DIR$/src/gui/backend/DataSource.java" />
+        <option value="$PROJECT_DIR$/src/gui/backend/Engine.java" />
+        <option value="$PROJECT_DIR$/src/gui/backend/EngineConfig.java" />
+        <option value="$PROJECT_DIR$/src/gui/backend/Identity.java" />
+        <option value="$PROJECT_DIR$/src/gui/backend/Orchestrator.java" />
+        <option value="$PROJECT_DIR$/src/gui/backend/Service.java" />
+        <option value="$PROJECT_DIR$/src/gui/backend/ServiceConfig.java" />
+        <option value="$PROJECT_DIR$/src/gui/backend/State.java" />
       </list>
     </option>
   </component>
@@ -602,16 +674,24 @@
       <option name="presentableId" value="Default" />
       <updated>1458844243009</updated>
       <workItem from="1458844246145" duration="3118000" />
-      <workItem from="1459186584311" duration="3098000" />
+      <workItem from="1459186584311" duration="5367000" />
     </task>
+    <task id="LOCAL-00001" summary="backend">
+      <created>1459194121006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1459194121006</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6216000" />
+    <option name="totallyTimeSpent" value="8485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2000" y="23" width="1714" height="1097" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -625,7 +705,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24970828" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24970828" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -650,6 +730,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="backend" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -786,6 +870,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/backend/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="804">
+          <caret line="297" column="0" selection-start-line="297" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/backend/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/backend/DataSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/backend/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="200" column="0" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/backend/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="804">
+          <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/backend/EngineConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/backend/Identity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/backend/Orchestrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="804">
+          <caret line="266" column="0" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/backend/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="332" column="0" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/backend/ServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/backend/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/backend/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -20,11 +20,7 @@
  *   Department of Experimental Nuclear Physics, Jefferson Lab.
  */
 
-package org.jlab.clara.claraol;
-
-import org.protege.owl.codegeneration.WrappedIndividual;
-import org.semanticweb.owlapi.model.OWLNamedIndividual;
-import org.semanticweb.owlapi.model.OWLOntology;
+package gui.backend;
 
 import java.util.Collection;
 
@@ -36,7 +32,7 @@ import java.util.Collection;
  * @version generated on Sat Jan 30 17:43:59 EST 2016 by gurjyan
  */
 
-public interface Condition extends WrappedIndividual {
+public interface Condition  {
 
     /* ***************************************************
      * Property http://claraweb.jlab.org/ontology/2015/11/ClaraOL#executionState
@@ -202,15 +198,6 @@ public interface Condition extends WrappedIndividual {
      */
     void removeLogicalRelationship(String oldLogicalRelationship);
 
-
-
-    /* ***************************************************
-     * Common interfaces
-     */
-
-    OWLNamedIndividual getOwlIndividual();
-
-    OWLOntology getOwlOntology();
 
     void delete();
 
