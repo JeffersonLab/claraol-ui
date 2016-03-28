@@ -19,5 +19,5 @@ We think that ClaraOL is complete enough to describe wide variety of data proces
 
 ##For Developers
 ####Source
-All source files are located under the `./src` directory. There are no dependencies as of yet, however, that may change when the Backend gets uploaded.
-The files are organized in packages for easy use with the <b>IntelliJ IDE</b>.
+All source files are located under the `./src` directory. There are no dependencies as of yet, however, that may change when the Backend gets uploaded. The files are organized in packages for easy use with the <b>IntelliJ IDE</b>. All FXML files are compatible with Scene Builder, which is an external application that allows you to view and build designs for windows.
+<b> **Note** ::---> The FXML files are written in IntelliJ and can be viewed in Scene Builder. Do not Modify the files in Scene Builder, because then, I will cry. I don't want to cry...</b>
