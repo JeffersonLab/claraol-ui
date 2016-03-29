@@ -25,8 +25,9 @@ package gui.backend;
 import java.util.Collection;
 
 /**
- * 
+ * <p>
  * @version created on Sat Jan 30 17:43:59 EST 2016 by gurjyan
+ *
  */
 
 public interface Action {

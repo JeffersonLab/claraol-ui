@@ -22,7 +22,6 @@
 
 package gui.backend;
 
-import java.util.Collection;
 
 /**
  * 
@@ -37,32 +36,25 @@ public interface DataSet {
      */
      
     /**
-     * Gets all property values for the hasInputSource property.<p>
+     * Gets property value for the hasInputSource property.<p>
      * 
-     * @return a collection of values for the hasInputSource property.
+     * @return a value for the hasInputSource property.
      */
-    Collection<? extends DataSource> getHasInputSource();
+    DataSource getInputSource();
 
     /**
      * Checks if the class has a hasInputSource property value.<p>
      * 
      * @return true if there is a hasInputSource property value.
      */
-    boolean hasHasInputSource();
+    boolean hasInputSource();
 
     /**
      * Adds a hasInputSource property value.<p>
      * 
      * @param newHasInputSource the hasInputSource property value to be added
      */
-    void addHasInputSource(DataSource newHasInputSource);
-
-    /**
-     * Removes a hasInputSource property value.<p>
-     * 
-     * @param oldHasInputSource the hasInputSource property value to be removed.
-     */
-    void removeHasInputSource(DataSource oldHasInputSource);
+    void setInputSource(DataSource newHasInputSource);
 
 
     /* ***************************************************
@@ -72,30 +64,23 @@ public interface DataSet {
     /**
      * Gets all property values for the hasOutputSource property.<p>
      * 
-     * @return a collection of values for the hasOutputSource property.
+     * @return a value for the hasOutputSource property.
      */
-    Collection<? extends DataSource> getHasOutputSource();
+    DataSource getOutputSource();
 
     /**
      * Checks if the class has a hasOutputSource property value.<p>
      * 
      * @return true if there is a hasOutputSource property value.
      */
-    boolean hasHasOutputSource();
+    boolean hasOutputSource();
 
     /**
      * Adds a hasOutputSource property value.<p>
      * 
      * @param newHasOutputSource the hasOutputSource property value to be added
      */
-    void addHasOutputSource(DataSource newHasOutputSource);
-
-    /**
-     * Removes a hasOutputSource property value.<p>
-     * 
-     * @param oldHasOutputSource the hasOutputSource property value to be removed.
-     */
-    void removeHasOutputSource(DataSource oldHasOutputSource);
+    void setOutputSource(DataSource newHasOutputSource);
 
 
     /* ***************************************************
@@ -105,9 +90,9 @@ public interface DataSet {
     /**
      * Gets all property values for the outputFilePrefix property.<p>
      * 
-     * @return a collection of values for the outputFilePrefix property.
+     * @return a value for the outputFilePrefix property.
      */
-    Collection<? extends String> getOutputFilePrefix();
+    String getOutputFilePrefix();
 
     /**
      * Checks if the class has a outputFilePrefix property value.<p>
@@ -121,14 +106,7 @@ public interface DataSet {
      * 
      * @param newOutputFilePrefix the outputFilePrefix property value to be added
      */
-    void addOutputFilePrefix(String newOutputFilePrefix);
-
-    /**
-     * Removes a outputFilePrefix property value.<p>
-     * 
-     * @param oldOutputFilePrefix the outputFilePrefix property value to be removed.
-     */
-    void removeOutputFilePrefix(String oldOutputFilePrefix);
+    void setOutputFilePrefix(String newOutputFilePrefix);
 
 
 
@@ -139,9 +117,9 @@ public interface DataSet {
     /**
      * Gets all property values for the outputFileSuffix property.<p>
      * 
-     * @return a collection of values for the outputFileSuffix property.
+     * @return a value for the outputFileSuffix property.
      */
-    Collection<? extends String> getOutputFileSuffix();
+    String getOutputFileSuffix();
 
     /**
      * Checks if the class has a outputFileSuffix property value.<p>
@@ -155,14 +133,7 @@ public interface DataSet {
      * 
      * @param newOutputFileSuffix the outputFileSuffix property value to be added
      */
-    void addOutputFileSuffix(String newOutputFileSuffix);
-
-    /**
-     * Removes a outputFileSuffix property value.<p>
-     * 
-     * @param oldOutputFileSuffix the outputFileSuffix property value to be removed.
-     */
-    void removeOutputFileSuffix(String oldOutputFileSuffix);
+    void setOutputFileSuffix(String newOutputFileSuffix);
 
     void delete();
 
