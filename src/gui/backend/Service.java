@@ -27,7 +27,7 @@ import java.util.Collection;
 /**
  * 
  * <p>
- * @version generated on Sat Jan 30 17:43:59 EST 2016 by gurjyan
+ * @version created on Sat Jan 30 17:43:59 EST 2016 by gurjyan
  */
 
 public interface Service {
@@ -41,28 +41,28 @@ public interface Service {
      * 
      * @return a collection of values for the hasCondition property.
      */
-    Collection<? extends Condition> getHasCondition();
+    Collection<? extends Condition> getConditions();
 
     /**
      * Checks if the class has a hasCondition property value.<p>
      * 
      * @return true if there is a hasCondition property value.
      */
-    boolean hasHasCondition();
+    boolean hasCondition();
 
     /**
      * Adds a hasCondition property value.<p>
      * 
      * @param newHasCondition the hasCondition property value to be added
      */
-    void addHasCondition(Condition newHasCondition);
+    void addCondition(Condition newHasCondition);
 
     /**
      * Removes a hasCondition property value.<p>
      * 
      * @param oldHasCondition the hasCondition property value to be removed.
      */
-    void removeHasCondition(Condition oldHasCondition);
+    void removeCondition(Condition oldHasCondition);
 
 
     /* ***************************************************
@@ -70,32 +70,25 @@ public interface Service {
      */
      
     /**
-     * Gets all property values for the hasConfig property.<p>
+     * Gets value for the hasConfig property.<p>
      * 
-     * @return a collection of values for the hasConfig property.
+     * @return a value for the hasConfig property.
      */
-    Collection<? extends ServiceConfig> getHasConfig();
+    ServiceConfig getConfig();
 
     /**
      * Checks if the class has a hasConfig property value.<p>
      * 
      * @return true if there is a hasConfig property value.
      */
-    boolean hasHasConfig();
+    boolean hasConfig();
 
     /**
      * Adds a hasConfig property value.<p>
      * 
      * @param newHasConfig the hasConfig property value to be added
      */
-    void addHasConfig(ServiceConfig newHasConfig);
-
-    /**
-     * Removes a hasConfig property value.<p>
-     * 
-     * @param oldHasConfig the hasConfig property value to be removed.
-     */
-    void removeHasConfig(ServiceConfig oldHasConfig);
+    void setConfig(ServiceConfig newHasConfig);
 
 
     /* ***************************************************
@@ -103,32 +96,25 @@ public interface Service {
      */
      
     /**
-     * Gets all property values for the hasEngine property.<p>
+     * Gets value for the hasEngine property.<p>
      * 
-     * @return a collection of values for the hasEngine property.
+     * @return a value for the hasEngine property.
      */
-    Collection<? extends Engine> getHasEngine();
+    Engine getEngine();
 
     /**
      * Checks if the class has a hasEngine property value.<p>
      * 
      * @return true if there is a hasEngine property value.
      */
-    boolean hasHasEngine();
+    boolean hasEngine();
 
     /**
      * Adds a hasEngine property value.<p>
      * 
      * @param newHasEngine the hasEngine property value to be added
      */
-    void addHasEngine(Engine newHasEngine);
-
-    /**
-     * Removes a hasEngine property value.<p>
-     * 
-     * @param oldHasEngine the hasEngine property value to be removed.
-     */
-    void removeHasEngine(Engine oldHasEngine);
+    void setEngine(Engine newHasEngine);
 
 
     /* ***************************************************
@@ -136,32 +122,25 @@ public interface Service {
      */
      
     /**
-     * Gets all property values for the hasIdentity property.<p>
+     * Gets value for the hasIdentity property.<p>
      * 
-     * @return a collection of values for the hasIdentity property.
+     * @return a value for the hasIdentity property.
      */
-    Collection<? extends Identity> getHasIdentity();
+    Collection<? extends Identity> getIdentity();
 
     /**
      * Checks if the class has a hasIdentity property value.<p>
      * 
      * @return true if there is a hasIdentity property value.
      */
-    boolean hasHasIdentity();
+    boolean hasIdentity();
 
     /**
      * Adds a hasIdentity property value.<p>
      * 
      * @param newHasIdentity the hasIdentity property value to be added
      */
-    void addHasIdentity(Identity newHasIdentity);
-
-    /**
-     * Removes a hasIdentity property value.<p>
-     * 
-     * @param oldHasIdentity the hasIdentity property value to be removed.
-     */
-    void removeHasIdentity(Identity oldHasIdentity);
+    void setIdentity(Identity newHasIdentity);
 
 
     /* ***************************************************
@@ -173,28 +152,28 @@ public interface Service {
      * 
      * @return a collection of values for the hasLink property.
      */
-    Collection<? extends Service> getHasLink();
+    Collection<? extends Service> getLinks();
 
     /**
      * Checks if the class has a hasLink property value.<p>
      * 
      * @return true if there is a hasLink property value.
      */
-    boolean hasHasLink();
+    boolean hasLink();
 
     /**
      * Adds a hasLink property value.<p>
      * 
      * @param newHasLink the hasLink property value to be added
      */
-    void addHasLink(Service newHasLink);
+    void addLink(Service newHasLink);
 
     /**
      * Removes a hasLink property value.<p>
      * 
      * @param oldHasLink the hasLink property value to be removed.
      */
-    void removeHasLink(Service oldHasLink);
+    void removeLink(Service oldHasLink);
 
 
     /* ***************************************************
@@ -206,28 +185,28 @@ public interface Service {
      * 
      * @return a collection of values for the hasState property.
      */
-    Collection<? extends State> getHasState();
+    Collection<? extends State> getStates();
 
     /**
      * Checks if the class has a hasState property value.<p>
      * 
      * @return true if there is a hasState property value.
      */
-    boolean hasHasState();
+    boolean hasState();
 
     /**
      * Adds a hasState property value.<p>
      * 
      * @param newHasState the hasState property value to be added
      */
-    void addHasState(State newHasState);
+    void addState(State newHasState);
 
     /**
      * Removes a hasState property value.<p>
      * 
      * @param oldHasState the hasState property value to be removed.
      */
-    void removeHasState(State oldHasState);
+    void removeState(State oldHasState);
 
 
     /* ***************************************************
@@ -235,33 +214,25 @@ public interface Service {
      */
      
     /**
-     * Gets all property values for the hasContainer property.<p>
+     * Gets value for the hasContainer property.<p>
      * 
-     * @return a collection of values for the hasContainer property.
+     * @return a value for the hasContainer property.
      */
-    Collection<? extends String> getHasContainer();
+    String getContainer();
 
     /**
      * Checks if the class has a hasContainer property value.<p>
      * 
      * @return true if there is a hasContainer property value.
      */
-    boolean hasHasContainer();
+    boolean hasContainer();
 
     /**
      * Adds a hasContainer property value.<p>
      * 
      * @param newHasContainer the hasContainer property value to be added
      */
-    void addHasContainer(String newHasContainer);
-
-    /**
-     * Removes a hasContainer property value.<p>
-     * 
-     * @param oldHasContainer the hasContainer property value to be removed.
-     */
-    void removeHasContainer(String oldHasContainer);
-
+    void setContainer(String newHasContainer);
 
 
     /* ***************************************************
@@ -269,33 +240,25 @@ public interface Service {
      */
      
     /**
-     * Gets all property values for the hasDpe property.<p>
+     * Gets value for the hasDpe property.<p>
      * 
-     * @return a collection of values for the hasDpe property.
+     * @return a value for the hasDpe property.
      */
-    Collection<? extends String> getHasDpe();
+    Collection<? extends String> getDpe();
 
     /**
      * Checks if the class has a hasDpe property value.<p>
      * 
      * @return true if there is a hasDpe property value.
      */
-    boolean hasHasDpe();
+    boolean hasDpe();
 
     /**
      * Adds a hasDpe property value.<p>
      * 
      * @param newHasDpe the hasDpe property value to be added
      */
-    void addHasDpe(String newHasDpe);
-
-    /**
-     * Removes a hasDpe property value.<p>
-     * 
-     * @param oldHasDpe the hasDpe property value to be removed.
-     */
-    void removeHasDpe(String oldHasDpe);
-
+    void setDpe(String newHasDpe);
 
 
     /* ***************************************************
@@ -303,32 +266,25 @@ public interface Service {
      */
      
     /**
-     * Gets all property values for the hasPoolSize property.<p>
+     * Gets property value for the hasPoolSize property.<p>
      * 
-     * @return a collection of values for the hasPoolSize property.
+     * @return a value for the hasPoolSize property.
      */
-    Collection<? extends Integer> getHasPoolSize();
+    Integer getPoolSize();
 
     /**
      * Checks if the class has a hasPoolSize property value.<p>
      * 
      * @return true if there is a hasPoolSize property value.
      */
-    boolean hasHasPoolSize();
+    boolean hasPoolSize();
 
     /**
      * Adds a hasPoolSize property value.<p>
      * 
      * @param newHasPoolSize the hasPoolSize property value to be added
      */
-    void addHasPoolSize(Integer newHasPoolSize);
-
-    /**
-     * Removes a hasPoolSize property value.<p>
-     * 
-     * @param oldHasPoolSize the hasPoolSize property value to be removed.
-     */
-    void removeHasPoolSize(Integer oldHasPoolSize);
+    void setPoolSize(Integer newHasPoolSize);
 
     void delete();
 

@@ -22,12 +22,11 @@
 
 package gui.backend;
 
-import java.util.Collection;
 
 /**
  * 
  * <p>
- * @version generated on Sat Jan 30 17:43:59 EST 2016 by gurjyan
+ * @version created on Sat Jan 30 17:43:59 EST 2016 by gurjyan
  */
 
 public interface EngineConfig {
@@ -37,32 +36,25 @@ public interface EngineConfig {
      */
      
     /**
-     * Gets all property values for the hasInputData property.<p>
+     * Gets property value for the hasInputData property.<p>
      * 
-     * @return a collection of values for the hasInputData property.
+     * @return a value for the hasInputData property.
      */
-    Collection<? extends DataSource> getHasInputData();
+    DataSource getInputData();
 
     /**
      * Checks if the class has a hasInputData property value.<p>
      * 
      * @return true if there is a hasInputData property value.
      */
-    boolean hasHasInputData();
+    boolean hasInputData();
 
     /**
      * Adds a hasInputData property value.<p>
      * 
      * @param newHasInputData the hasInputData property value to be added
      */
-    void addHasInputData(DataSource newHasInputData);
-
-    /**
-     * Removes a hasInputData property value.<p>
-     * 
-     * @param oldHasInputData the hasInputData property value to be removed.
-     */
-    void removeHasInputData(DataSource oldHasInputData);
+    void setInputData(DataSource newHasInputData);
 
 
     /* ***************************************************
@@ -70,33 +62,25 @@ public interface EngineConfig {
      */
      
     /**
-     * Gets all property values for the hasOutputData property.<p>
+     * Gets property value for the hasOutputData property.<p>
      * 
-     * @return a collection of values for the hasOutputData property.
+     * @return a value for the hasOutputData property.
      */
-    Collection<? extends DataSource> getHasOutputData();
+    DataSource getOutputData();
 
     /**
      * Checks if the class has a hasOutputData property value.<p>
      * 
      * @return true if there is a hasOutputData property value.
      */
-    boolean hasHasOutputData();
+    boolean hasOutputData();
 
     /**
      * Adds a hasOutputData property value.<p>
      * 
      * @param newHasOutputData the hasOutputData property value to be added
      */
-    void addHasOutputData(DataSource newHasOutputData);
-
-    /**
-     * Removes a hasOutputData property value.<p>
-     * 
-     * @param oldHasOutputData the hasOutputData property value to be removed.
-     */
-    void removeHasOutputData(DataSource oldHasOutputData);
-
+    void setOutputData(DataSource newHasOutputData);
 
     void delete();
 

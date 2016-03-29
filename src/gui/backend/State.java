@@ -22,12 +22,10 @@
 
 package gui.backend;
 
-import java.util.Collection;
-
 /**
  * 
  * <p>
- * @version generated on Sat Jan 30 17:43:59 EST 2016 by gurjyan
+ * @version created on Sat Jan 30 17:43:59 EST 2016 by gurjyan
  */
 
 public interface State {
@@ -37,33 +35,25 @@ public interface State {
      */
      
     /**
-     * Gets all property values for the hasSeverity property.<p>
+     * Gets property value for the hasSeverity property.<p>
      * 
-     * @return a collection of values for the hasSeverity property.
+     * @return a value for the hasSeverity property.
      */
-    Collection<? extends String> getHasSeverity();
+    String getSeverity();
 
     /**
      * Checks if the class has a hasSeverity property value.<p>
      * 
      * @return true if there is a hasSeverity property value.
      */
-    boolean hasHasSeverity();
+    boolean hasSeverity();
 
     /**
      * Adds a hasSeverity property value.<p>
      * 
      * @param newHasSeverity the hasSeverity property value to be added
      */
-    void addHasSeverity(String newHasSeverity);
-
-    /**
-     * Removes a hasSeverity property value.<p>
-     * 
-     * @param oldHasSeverity the hasSeverity property value to be removed.
-     */
-    void removeHasSeverity(String oldHasSeverity);
-
+    void setSeverity(String newHasSeverity);
 
 
     /* ***************************************************
@@ -71,32 +61,25 @@ public interface State {
      */
      
     /**
-     * Gets all property values for the hasSeverityID property.<p>
+     * Gets property value for the hasSeverityID property.<p>
      * 
-     * @return a collection of values for the hasSeverityID property.
+     * @return a value for the hasSeverityID property.
      */
-    Collection<? extends Integer> getHasSeverityID();
+    Integer getSeverityID();
 
     /**
      * Checks if the class has a hasSeverityID property value.<p>
      * 
      * @return true if there is a hasSeverityID property value.
      */
-    boolean hasHasSeverityID();
+    boolean hasSeverityID();
 
     /**
      * Adds a hasSeverityID property value.<p>
      * 
      * @param newHasSeverityID the hasSeverityID property value to be added
      */
-    void addHasSeverityID(Integer newHasSeverityID);
-
-    /**
-     * Removes a hasSeverityID property value.<p>
-     * 
-     * @param oldHasSeverityID the hasSeverityID property value to be removed.
-     */
-    void removeHasSeverityID(Integer oldHasSeverityID);
+    void setSeverityID(Integer newHasSeverityID);
 
 
 
@@ -105,32 +88,25 @@ public interface State {
      */
      
     /**
-     * Gets all property values for the hasStateName property.<p>
+     * Gets property value for the hasStateName property.<p>
      * 
-     * @return a collection of values for the hasStateName property.
+     * @return a value for the hasStateName property.
      */
-    Collection<? extends String> getHasStateName();
+    String getStateName();
 
     /**
      * Checks if the class has a hasStateName property value.<p>
      * 
      * @return true if there is a hasStateName property value.
      */
-    boolean hasHasStateName();
+    boolean hasStateName();
 
     /**
      * Adds a hasStateName property value.<p>
      * 
      * @param newHasStateName the hasStateName property value to be added
      */
-    void addHasStateName(String newHasStateName);
-
-    /**
-     * Removes a hasStateName property value.<p>
-     * 
-     * @param oldHasStateName the hasStateName property value to be removed.
-     */
-    void removeHasStateName(String oldHasStateName);
+    void setStateName(String newHasStateName);
 
 
     void delete();

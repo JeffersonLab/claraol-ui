@@ -28,7 +28,7 @@ import java.util.Collection;
 /**
  * 
  * <p>
- * @version generated on Sat Jan 30 17:43:59 EST 2016 by gurjyan
+ * @version created on Sat Jan 30 17:43:59 EST 2016 by gurjyan
  */
 
 public interface Engine {
@@ -38,32 +38,25 @@ public interface Engine {
      */
      
     /**
-     * Gets all property values for the hasIdentity property.<p>
+     * Gets property value for the hasIdentity property.<p>
      * 
-     * @return a collection of values for the hasIdentity property.
+     * @return a value for the hasIdentity property.
      */
-    Collection<? extends Identity> getHasIdentity();
+    Identity getIdentity();
 
     /**
      * Checks if the class has a hasIdentity property value.<p>
      * 
      * @return true if there is a hasIdentity property value.
      */
-    boolean hasHasIdentity();
+    boolean hasIdentity();
 
     /**
      * Adds a hasIdentity property value.<p>
      * 
      * @param newHasIdentity the hasIdentity property value to be added
      */
-    void addHasIdentity(Identity newHasIdentity);
-
-    /**
-     * Removes a hasIdentity property value.<p>
-     * 
-     * @param oldHasIdentity the hasIdentity property value to be removed.
-     */
-    void removeHasIdentity(Identity oldHasIdentity);
+    void setIdentity(Identity newHasIdentity);
 
 
     /* ***************************************************
@@ -71,32 +64,32 @@ public interface Engine {
      */
      
     /**
-     * Gets all property values for the needsConfiguation property.<p>
+     * Gets all property values for the needsConfiguration property.<p>
      * 
-     * @return a collection of values for the needsConfiguation property.
+     * @return a collection of values for the needsConfiguration property.
      */
-    Collection<? extends EngineConfig> getNeedsConfiguation();
+    Collection<? extends EngineConfig> geConfigurations();
 
     /**
      * Checks if the class has a needsConfiguation property value.<p>
      * 
      * @return true if there is a needsConfiguation property value.
      */
-    boolean hasNeedsConfiguation();
+    boolean hasConfiguration();
 
     /**
      * Adds a needsConfiguation property value.<p>
      * 
-     * @param newNeedsConfiguation the needsConfiguation property value to be added
+     * @param newNeedsConfiguration the needsConfiguration property value to be added
      */
-    void addNeedsConfiguation(EngineConfig newNeedsConfiguation);
+    void addConfiguration(EngineConfig newNeedsConfiguration);
 
     /**
-     * Removes a needsConfiguation property value.<p>
+     * Removes a needsConfiguration property value.<p>
      * 
-     * @param oldNeedsConfiguation the needsConfiguation property value to be removed.
+     * @param oldNeedsConfiguration the needsConfiguration property value to be removed.
      */
-    void removeNeedsConfiguation(EngineConfig oldNeedsConfiguation);
+    void removeConfiguration(EngineConfig oldNeedsConfiguration);
 
 
     /* ***************************************************
@@ -108,28 +101,28 @@ public interface Engine {
      * 
      * @return a collection of values for the hasLibrary property.
      */
-    Collection<? extends String> getHasLibrary();
+    Collection<? extends String> getLibraries();
 
     /**
      * Checks if the class has a hasLibrary property value.<p>
      * 
      * @return true if there is a hasLibrary property value.
      */
-    boolean hasHasLibrary();
+    boolean hasLibrary();
 
     /**
      * Adds a hasLibrary property value.<p>
      * 
      * @param newHasLibrary the hasLibrary property value to be added
      */
-    void addHasLibrary(String newHasLibrary);
+    void addLibrary(String newHasLibrary);
 
     /**
      * Removes a hasLibrary property value.<p>
      * 
      * @param oldHasLibrary the hasLibrary property value to be removed.
      */
-    void removeHasLibrary(String oldHasLibrary);
+    void removeLibrary(String oldHasLibrary);
 
 
 
@@ -142,30 +135,28 @@ public interface Engine {
      * 
      * @return a collection of values for the hasLibraryPath property.
      */
-    Collection<? extends String> getHasLibraryPath();
+    Collection<? extends String> getLibraryPaths();
 
     /**
      * Checks if the class has a hasLibraryPath property value.<p>
      * 
      * @return true if there is a hasLibraryPath property value.
      */
-    boolean hasHasLibraryPath();
+    boolean hasLibraryPath();
 
     /**
      * Adds a hasLibraryPath property value.<p>
      * 
      * @param newHasLibraryPath the hasLibraryPath property value to be added
      */
-    void addHasLibraryPath(String newHasLibraryPath);
+    void addLibraryPath(String newHasLibraryPath);
 
     /**
      * Removes a hasLibraryPath property value.<p>
      * 
      * @param oldHasLibraryPath the hasLibraryPath property value to be removed.
      */
-    void removeHasLibraryPath(String oldHasLibraryPath);
-
-
+    void removeLibraryPath(String oldHasLibraryPath);
 
     void delete();
 

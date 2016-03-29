@@ -22,12 +22,11 @@
 
 package gui.backend;
 
-import java.util.Collection;
 
 /**
  * 
  * <p>
- * @version generated on Sat Jan 30 17:43:59 EST 2016 by gurjyan
+ * @version created on Sat Jan 30 17:43:59 EST 2016 by gurjyan
  */
 
 public interface DataSource  {
@@ -37,11 +36,11 @@ public interface DataSource  {
      */
      
     /**
-     * Gets all property values for the hasIdentity property.<p>
+     * Gets value for the hasIdentity property.<p>
      * 
-     * @return a collection of values for the hasIdentity property.
+     * @return a value for the hasIdentity property.
      */
-    Collection<? extends Identity> getHasIdentity();
+    Identity getIdentity();
 
     /**
      * Checks if the class has a hasIdentity property value.<p>
@@ -55,14 +54,7 @@ public interface DataSource  {
      * 
      * @param newHasIdentity the hasIdentity property value to be added
      */
-    void addHasIdentity(Identity newHasIdentity);
-
-    /**
-     * Removes a hasIdentity property value.<p>
-     * 
-     * @param oldHasIdentity the hasIdentity property value to be removed.
-     */
-    void removeHasIdentity(Identity oldHasIdentity);
+    void setHasIdentity(Identity newHasIdentity);
 
 
     /* ***************************************************
@@ -70,33 +62,25 @@ public interface DataSource  {
      */
      
     /**
-     * Gets all property values for the hasType property.<p>
+     * Gets value for the hasType property.<p>
      * 
-     * @return a collection of values for the hasType property.
+     * @return a value for the hasType property.
      */
-    Collection<? extends String> getHasType();
+    String getType();
 
     /**
      * Checks if the class has a hasType property value.<p>
      * 
      * @return true if there is a hasType property value.
      */
-    boolean hasHasType();
+    boolean hasType();
 
     /**
      * Adds a hasType property value.<p>
      * 
      * @param newHasType the hasType property value to be added
      */
-    void addHasType(String newHasType);
-
-    /**
-     * Removes a hasType property value.<p>
-     * 
-     * @param oldHasType the hasType property value to be removed.
-     */
-    void removeHasType(String oldHasType);
-
+    void setType(String newHasType);
 
 
     /* ***************************************************
@@ -104,33 +88,25 @@ public interface DataSource  {
      */
      
     /**
-     * Gets all property values for the hasValue property.<p>
+     * Gets property value for the hasValue property.<p>
      * 
-     * @return a collection of values for the hasValue property.
+     * @return a value for the hasValue property.
      */
-    Collection<? extends String> getHasValue();
+    String getValue();
 
     /**
      * Checks if the class has a hasValue property value.<p>
      * 
      * @return true if there is a hasValue property value.
      */
-    boolean hasHasValue();
+    boolean hasValue();
 
     /**
      * Adds a hasValue property value.<p>
      * 
      * @param newHasValue the hasValue property value to be added
      */
-    void addHasValue(String newHasValue);
-
-    /**
-     * Removes a hasValue property value.<p>
-     * 
-     * @param oldHasValue the hasValue property value to be removed.
-     */
-    void removeHasValue(String oldHasValue);
-
+    void setValue(String newHasValue);
 
 
     /* ***************************************************
@@ -138,33 +114,19 @@ public interface DataSource  {
      */
      
     /**
-     * Gets all property values for the isDirectory property.<p>
+     * Gets property value for the isDirectory property.<p>
      * 
-     * @return a collection of values for the isDirectory property.
+     * @return a of value for the isDirectory property.
      */
-    Collection<? extends Boolean> getIsDirectory();
+    boolean isDirectory();
 
-    /**
-     * Checks if the class has a isDirectory property value.<p>
-     * 
-     * @return true if there is a isDirectory property value.
-     */
-    boolean hasIsDirectory();
 
     /**
      * Adds a isDirectory property value.<p>
      * 
      * @param newIsDirectory the isDirectory property value to be added
      */
-    void addIsDirectory(Boolean newIsDirectory);
-
-    /**
-     * Removes a isDirectory property value.<p>
-     * 
-     * @param oldIsDirectory the isDirectory property value to be removed.
-     */
-    void removeIsDirectory(Boolean oldIsDirectory);
-
+    void setIsDirectory(Boolean newIsDirectory);
 
 
     /* ***************************************************
@@ -172,33 +134,18 @@ public interface DataSource  {
      */
      
     /**
-     * Gets all property values for the isFile property.<p>
+     * Gets property value for the isFile property.<p>
      * 
-     * @return a collection of values for the isFile property.
+     * @return a value for the isFile property.
      */
-    Collection<? extends Boolean> getIsFile();
-
-    /**
-     * Checks if the class has a isFile property value.<p>
-     * 
-     * @return true if there is a isFile property value.
-     */
-    boolean hasIsFile();
+    boolean  isFile();
 
     /**
      * Adds a isFile property value.<p>
      * 
      * @param newIsFile the isFile property value to be added
      */
-    void addIsFile(Boolean newIsFile);
-
-    /**
-     * Removes a isFile property value.<p>
-     * 
-     * @param oldIsFile the isFile property value to be removed.
-     */
-    void removeIsFile(Boolean oldIsFile);
-
+    void setIsFile(Boolean newIsFile);
 
     void delete();
 

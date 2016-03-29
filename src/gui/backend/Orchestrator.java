@@ -27,7 +27,7 @@ import java.util.Collection;
 /**
  * 
  * <p>
- * @version generated on Sat Jan 30 17:43:59 EST 2016 by gurjyan
+ * @version created on Sat Jan 30 17:43:59 EST 2016 by gurjyan
  */
 
 public interface Orchestrator {
@@ -37,9 +37,9 @@ public interface Orchestrator {
      */
      
     /**
-     * Gets all property values for the actsOnError property.<p>
+     * Gets value for the actsOnError property.<p>
      * 
-     * @return a collection of values for the actsOnError property.
+     * @return a values for the actsOnError property.
      */
     Collection<? extends Action> getActsOnError();
 
@@ -55,14 +55,7 @@ public interface Orchestrator {
      * 
      * @param newActsOnError the actsOnError property value to be added
      */
-    void addActsOnError(Action newActsOnError);
-
-    /**
-     * Removes a actsOnError property value.<p>
-     * 
-     * @param oldActsOnError the actsOnError property value to be removed.
-     */
-    void removeActsOnError(Action oldActsOnError);
+    void setActsOnError(Action newActsOnError);
 
 
     /* ***************************************************
@@ -70,11 +63,11 @@ public interface Orchestrator {
      */
      
     /**
-     * Gets all property values for the actsOnWarning property.<p>
+     * Gets property value for the actsOnWarning property.<p>
      * 
-     * @return a collection of values for the actsOnWarning property.
+     * @return a value for the actsOnWarning property.
      */
-    Collection<? extends Action> getActsOnWarning();
+    Action getActsOnWarning();
 
     /**
      * Checks if the class has a actsOnWarning property value.<p>
@@ -88,14 +81,7 @@ public interface Orchestrator {
      * 
      * @param newActsOnWarning the actsOnWarning property value to be added
      */
-    void addActsOnWarning(Action newActsOnWarning);
-
-    /**
-     * Removes a actsOnWarning property value.<p>
-     * 
-     * @param oldActsOnWarning the actsOnWarning property value to be removed.
-     */
-    void removeActsOnWarning(Action oldActsOnWarning);
+    void setActsOnWarning(Action newActsOnWarning);
 
 
     /* ***************************************************
@@ -103,32 +89,25 @@ public interface Orchestrator {
      */
      
     /**
-     * Gets all property values for the processes property.<p>
+     * Gets value for the processes property.<p>
      * 
-     * @return a collection of values for the processes property.
+     * @return a value for the processes property.
      */
-    Collection<? extends DataSet> getProcesses();
+    DataSet getProcessedDataSet();
 
     /**
      * Checks if the class has a processes property value.<p>
      * 
      * @return true if there is a processes property value.
      */
-    boolean hasProcesses();
+    boolean doesProcessDataSet();
 
     /**
      * Adds a processes property value.<p>
      * 
      * @param newProcesses the processes property value to be added
      */
-    void addProcesses(DataSet newProcesses);
-
-    /**
-     * Removes a processes property value.<p>
-     * 
-     * @param oldProcesses the processes property value to be removed.
-     */
-    void removeProcesses(DataSet oldProcesses);
+    void setDataSetToProcess(DataSet newProcesses);
 
 
     /* ***************************************************
@@ -136,32 +115,25 @@ public interface Orchestrator {
      */
      
     /**
-     * Gets all property values for the runs property.<p>
+     * Gets value for the runs property.<p>
      * 
-     * @return a collection of values for the runs property.
+     * @return a value for the runs property.
      */
-    Collection<? extends Application> getRuns();
+    Application getRunApplication();
 
     /**
      * Checks if the class has a runs property value.<p>
      * 
      * @return true if there is a runs property value.
      */
-    boolean hasRuns();
+    boolean runsApplication();
 
     /**
      * Adds a runs property value.<p>
      * 
      * @param newRuns the runs property value to be added
      */
-    void addRuns(Application newRuns);
-
-    /**
-     * Removes a runs property value.<p>
-     * 
-     * @param oldRuns the runs property value to be removed.
-     */
-    void removeRuns(Application oldRuns);
+    void setApplicationToRun(Application newRuns);
 
 
     /* ***************************************************
@@ -169,33 +141,19 @@ public interface Orchestrator {
      */
      
     /**
-     * Gets all property values for the monitorsError property.<p>
+     * Gets property value for the monitorsError property.<p>
      * 
-     * @return a collection of values for the monitorsError property.
+     * @return a value for the monitorsError property.
      */
-    Collection<? extends Boolean> getMonitorsError();
+    boolean monitorsError();
 
-    /**
-     * Checks if the class has a monitorsError property value.<p>
-     * 
-     * @return true if there is a monitorsError property value.
-     */
-    boolean hasMonitorsError();
 
     /**
      * Adds a monitorsError property value.<p>
      * 
      * @param newMonitorsError the monitorsError property value to be added
      */
-    void addMonitorsError(Boolean newMonitorsError);
-
-    /**
-     * Removes a monitorsError property value.<p>
-     * 
-     * @param oldMonitorsError the monitorsError property value to be removed.
-     */
-    void removeMonitorsError(Boolean oldMonitorsError);
-
+    void setMonitorsError(Boolean newMonitorsError);
 
 
     /* ***************************************************
@@ -203,33 +161,18 @@ public interface Orchestrator {
      */
      
     /**
-     * Gets all property values for the monitorsInfo property.<p>
+     * Gets value for the monitorsInfo property.<p>
      * 
-     * @return a collection of values for the monitorsInfo property.
+     * @return a value for the monitorsInfo property.
      */
-    Collection<? extends Boolean> getMonitorsInfo();
-
-    /**
-     * Checks if the class has a monitorsInfo property value.<p>
-     * 
-     * @return true if there is a monitorsInfo property value.
-     */
-    boolean hasMonitorsInfo();
+    boolean monitorsInfo();
 
     /**
      * Adds a monitorsInfo property value.<p>
      * 
      * @param newMonitorsInfo the monitorsInfo property value to be added
      */
-    void addMonitorsInfo(Boolean newMonitorsInfo);
-
-    /**
-     * Removes a monitorsInfo property value.<p>
-     * 
-     * @param oldMonitorsInfo the monitorsInfo property value to be removed.
-     */
-    void removeMonitorsInfo(Boolean oldMonitorsInfo);
-
+    void setMonitorsInfo(Boolean newMonitorsInfo);
 
 
     /* ***************************************************
@@ -237,32 +180,19 @@ public interface Orchestrator {
      */
      
     /**
-     * Gets all property values for the monitorsWarning property.<p>
+     * Gets property value for the monitorsWarning property.<p>
      * 
-     * @return a collection of values for the monitorsWarning property.
+     * @return a value for the monitorsWarning property.
      */
-    Collection<? extends Boolean> getMonitorsWarning();
+    boolean monitorsWarning();
 
-    /**
-     * Checks if the class has a monitorsWarning property value.<p>
-     * 
-     * @return true if there is a monitorsWarning property value.
-     */
-    boolean hasMonitorsWarning();
 
     /**
      * Adds a monitorsWarning property value.<p>
      * 
      * @param newMonitorsWarning the monitorsWarning property value to be added
      */
-    void addMonitorsWarning(Boolean newMonitorsWarning);
-
-    /**
-     * Removes a monitorsWarning property value.<p>
-     * 
-     * @param oldMonitorsWarning the monitorsWarning property value to be removed.
-     */
-    void removeMonitorsWarning(Boolean oldMonitorsWarning);
+    void setMonitorsWarning(Boolean newMonitorsWarning);
 
 
     void delete();

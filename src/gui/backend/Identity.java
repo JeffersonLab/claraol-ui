@@ -22,12 +22,10 @@
 
 package gui.backend;
 
-import java.util.Collection;
-
 /**
  * 
  * <p>
- * @version generated on Sat Jan 30 17:43:59 EST 2016 by gurjyan
+ * @version created on Sat Jan 30 17:43:59 EST 2016 by gurjyan
  */
 
 public interface Identity {
@@ -37,11 +35,11 @@ public interface Identity {
      */
      
     /**
-     * Gets all property values for the author property.<p>
+     * Gets property value for the author property.<p>
      * 
-     * @return a collection of values for the author property.
+     * @return a value for the author property.
      */
-    Collection<? extends String> getAuthor();
+    String getAuthor();
 
     /**
      * Checks if the class has a author property value.<p>
@@ -55,15 +53,7 @@ public interface Identity {
      * 
      * @param newAuthor the author property value to be added
      */
-    void addAuthor(String newAuthor);
-
-    /**
-     * Removes a author property value.<p>
-     * 
-     * @param oldAuthor the author property value to be removed.
-     */
-    void removeAuthor(String oldAuthor);
-
+    void setAuthor(String newAuthor);
 
 
     /* ***************************************************
@@ -71,11 +61,11 @@ public interface Identity {
      */
      
     /**
-     * Gets all property values for the description property.<p>
+     * Gets property value for the description property.<p>
      * 
-     * @return a collection of values for the description property.
+     * @return a value for the description property.
      */
-    Collection<? extends String> getDescription();
+    String getDescription();
 
     /**
      * Checks if the class has a description property value.<p>
@@ -89,15 +79,7 @@ public interface Identity {
      * 
      * @param newDescription the description property value to be added
      */
-    void addDescription(String newDescription);
-
-    /**
-     * Removes a description property value.<p>
-     * 
-     * @param oldDescription the description property value to be removed.
-     */
-    void removeDescription(String oldDescription);
-
+    void setDescription(String newDescription);
 
 
     /* ***************************************************
@@ -105,11 +87,11 @@ public interface Identity {
      */
      
     /**
-     * Gets all property values for the name property.<p>
+     * Gets property value for the name property.<p>
      * 
-     * @return a collection of values for the name property.
+     * @return a value for the name property.
      */
-    Collection<? extends String> getName();
+    String getName();
 
     /**
      * Checks if the class has a name property value.<p>
@@ -123,15 +105,7 @@ public interface Identity {
      * 
      * @param newName the name property value to be added
      */
-    void addName(String newName);
-
-    /**
-     * Removes a name property value.<p>
-     * 
-     * @param oldName the name property value to be removed.
-     */
-    void removeName(String oldName);
-
+    void setName(String newName);
 
 
     /* ***************************************************
@@ -139,11 +113,11 @@ public interface Identity {
      */
      
     /**
-     * Gets all property values for the version property.<p>
+     * Gets property value for the version property.<p>
      * 
-     * @return a collection of values for the version property.
+     * @return a value for the version property.
      */
-    Collection<? extends String> getVersion();
+    String getVersion();
 
     /**
      * Checks if the class has a version property value.<p>
@@ -157,14 +131,7 @@ public interface Identity {
      * 
      * @param newVersion the version property value to be added
      */
-    void addVersion(String newVersion);
-
-    /**
-     * Removes a version property value.<p>
-     * 
-     * @param oldVersion the version property value to be removed.
-     */
-    void removeVersion(String oldVersion);
+    void setVersion(String newVersion);
 
     void delete();
 
