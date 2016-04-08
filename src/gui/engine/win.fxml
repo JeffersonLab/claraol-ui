@@ -4,13 +4,12 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="166.0"
       prefWidth="320.0" style="-fx-background-color: #181818;"
       xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <HBox alignment="CENTER_LEFT" prefHeight="28.0" prefWidth="319.0"
-            style="-fx-border-color: #181818 #181818 #b8b8b8 #181818;">
+      <HBox alignment="CENTER_LEFT" prefHeight="28.0" prefWidth="320.0"
+            style="-fx-border-color: transparent transparent #b8b8b8 transparent; -fx-background-color: #282828;">
          <children>
             <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="182.0" text="Engine"
                    textFill="#d7d7d7" />
