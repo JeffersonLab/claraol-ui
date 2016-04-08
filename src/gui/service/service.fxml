@@ -1,74 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
+<?import java.lang.*?>
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="349.0"
-            prefWidth="350.0" style="-fx-background-color: black;"
-            xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.service.Controller">
-    <Line endX="100.0" fill="WHITE" layoutX="242.0" layoutY="328.0" startX="-100.0" stroke="#787878" strokeWidth="2.0"
-          translateX="5.0" translateY="16.0"/>
-    <Line endX="100.0" fill="WHITE" layoutX="105.0" layoutY="344.0" startX="-100.0" stroke="#787878" strokeWidth="2.0"/>
-    <HBox prefHeight="36.0" prefWidth="350.0" style="-fx-background-color: #9d9d9d;">
-        <HBox alignment="CENTER_RIGHT" prefHeight="36.0" prefWidth="350.0"
-              style="-fx-background-color: #404040; -fx-background-insets: 0 0 1 0;">
-            <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="256.0">
-                <Button fx:id="close_button" alignment="CENTER" mnemonicParsing="false"
-                        style="-fx-background-radius: 0 0 0 0; -fx-border-color: #9d9d9d; -fx-background-color: #404040;"
-                        text="X" textFill="#9a9a9a"/>
-            </HBox>
-            <Label prefHeight="34.0" prefWidth="90.0" text="Service" textFill="WHITE">
-                <font>
-                    <Font name="Avenir Roman" size="22.0"/>
-                </font>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0"
+      prefWidth="600.0" style="-fx-background-color: #181818;"
+      xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="28.0" prefWidth="600.0"
+            style="-fx-background-color: #484848; -fx-border-color: transparent transparent #a8a8a8 transparent;">
+         <children>
+            <Label alignment="CENTER_RIGHT" prefHeight="25.0" prefWidth="553.0" text="Service" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
             </Label>
-        </HBox>
-    </HBox>
-    <Line endX="100.0" fill="WHITE" layoutX="4.0" layoutY="244.0" rotate="90.0" startX="-100.0" stroke="#787878"
-          strokeWidth="2.0"/>
-    <Line endX="100.0" fill="WHITE" layoutX="4.0" layoutY="141.0" rotate="-90.0" startX="-100.0" stroke="#787878"
-          strokeWidth="2.0"/>
-    <Line endX="100.0" fill="WHITE" layoutX="247.0" layoutY="20.0" startX="-100.0" stroke="#787878" strokeWidth="2.0"
-          translateY="20.0"/>
-    <Line endX="100.0" fill="WHITE" layoutX="104.0" layoutY="40.0" startX="-100.0" stroke="#787878" strokeWidth="2.0"/>
-    <Line endX="100.0" fill="WHITE" layoutX="347.0" layoutY="141.0" rotate="90.0" startX="-100.0" stroke="#787878"
-          strokeWidth="2.0"/>
-    <Line endX="100.0" fill="WHITE" layoutX="347.0" layoutY="244.0" rotate="-90.0" startX="-100.0" stroke="#787878"
-          strokeWidth="2.0"/>
-    <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="52.0" prefHeight="23.0" prefWidth="90.0" text="Container"
-           textFill="#616161"/>
-    <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="83.0" prefHeight="23.0" prefWidth="90.0" text="Dpe"
-           textFill="#616161"/>
-    <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="112.0" prefHeight="23.0" prefWidth="90.0" text="Pool Size"
-           textFill="#616161"/>
-    <TextField layoutX="119.0" layoutY="51.0" prefHeight="16.0" prefWidth="202.0" promptText="Container goes here"
-               style="-fx-background-color: black; -fx-border-color: white; -fx-text-fill: white;"/>
-    <TextField layoutX="119.0" layoutY="80.0" prefHeight="16.0" prefWidth="202.0" promptText="Dpe goes here"
-               style="-fx-background-color: black; -fx-border-color: white; -fx-text-fill: white;"/>
-    <TextField alignment="CENTER" layoutX="119.0" layoutY="109.0" prefHeight="16.0" prefWidth="202.0"
-               promptText="Pool Size (INT) Goes here."
-               style="-fx-background-color: black; -fx-border-color: white; -fx-text-fill: white;"/>
-    <Line endX="100.0" fill="WHITE" layoutX="108.0" layoutY="153.0" startX="-100.0" stroke="#787878"/>
-    <Line endX="100.0" fill="WHITE" layoutX="243.0" layoutY="153.0" startX="-100.0" stroke="#787878"/>
-    <ToolBar layoutX="19.0" layoutY="161.0" orientation="VERTICAL" prefHeight="172.0" prefWidth="114.0"
-             style="-fx-background-color: black;">
-        <Button mnemonicParsing="false"
-                style="-fx-background-color: black; -fx-background-radius: 0 0 0 0; -fx-background-insets: 3 3 3 3; -fx-border-color: white;"
-                text="Link" textFill="#838383"/>
-        <Button mnemonicParsing="false"
-                style="-fx-background-color: black; -fx-background-radius: 0 0 0 0; -fx-background-insets: 3 3 3 3; -fx-border-color: white;"
-                text="Condition" textFill="#838383"/>
-        <Button mnemonicParsing="false"
-                style="-fx-background-color: black; -fx-background-radius: 0 0 0 0; -fx-background-insets: 3 3 3 3; -fx-border-color: white;"
-                text="Configuration" textFill="#838383"/>
-        <Button mnemonicParsing="false"
-                style="-fx-background-color: black; -fx-background-radius: 0 0 0 0; -fx-background-insets: 3 3 3 3; -fx-border-color: white;"
-                text="State Options" textFill="#838383"/>
-        <Button mnemonicParsing="false"
-                style="-fx-background-color: black; -fx-background-radius: 0 0 0 0; -fx-background-insets: 3 3 3 3; -fx-border-color: white;"
-                text="Engine View" textFill="#838383"/>
-    </ToolBar>
-</AnchorPane>
+         </children>
+      </HBox>
+      <Label layoutX="11.0" layoutY="39.0" text="Selection Dependencies" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ComboBox layoutX="70.0" layoutY="73.0" prefWidth="150.0" promptText="Links" style="-fx-border-color: #181818;"
+                stylesheets="@combobox.css" />
+      <ComboBox layoutX="229.0" layoutY="73.0" prefWidth="150.0" promptText="Conditions"
+                style="-fx-border-color: #181818;" stylesheets="@combobox.css" />
+      <ComboBox layoutX="388.0" layoutY="73.0" prefWidth="150.0" promptText="States"
+                style="-fx-border-color: #181818;" stylesheets="@combobox.css" />
+      <Label layoutX="184.0" layoutY="39.0"
+             text="|  Selecting from these dropdowns will open up another window" textFill="#9c9c9c" />
+      <Line endX="500.0" layoutX="101.0" layoutY="127.0" startX="-100.0" stroke="#484848" strokeWidth="2.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="24.0" layoutY="184.0" prefHeight="18.0"
+             prefWidth="77.0" text="Identity" textFill="#c6c6c6">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField alignment="CENTER" editable="false" layoutX="109.0" layoutY="178.0" prefHeight="30.0"
+                 prefWidth="217.0" promptText="Identity Link/Text here..."
+                 style="-fx-background-color: #282828; -fx-border-color: #b8b8b8; -fx-text-fill: #fafafa;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" editable="false" layoutX="109.0" layoutY="219.0" prefHeight="30.0"
+                 prefWidth="217.0" promptText="Configuration Link/Text here..."
+                 style="-fx-background-color: #282828; -fx-border-color: #b8b8b8; -fx-text-fill: #fafafa;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER_RIGHT" layoutX="10.0" layoutY="225.0" prefHeight="18.0" prefWidth="91.0"
+             text="Configuration" textFill="#c6c6c6">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField alignment="CENTER" editable="false" layoutX="109.0" layoutY="261.0" prefHeight="30.0"
+                 prefWidth="217.0" promptText="Engine Link/Text here..."
+                 style="-fx-background-color: #282828; -fx-border-color: #b8b8b8; -fx-text-fill: #fafafa;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER_RIGHT" layoutX="24.0" layoutY="267.0" prefHeight="18.0" prefWidth="77.0"
+             text="Engine" textFill="#c6c6c6">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField alignment="CENTER" editable="false" layoutX="450.0" layoutY="178.0" prefHeight="30.0"
+                 prefWidth="124.0" promptText="Pool Size here..."
+                 style="-fx-background-color: #282828; -fx-border-color: #b8b8b8; -fx-text-fill: #fafafa;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Line endX="113.0" layoutX="344.0" layoutY="234.0" rotate="90.0" startX="-100.0" stroke="#484848"
+            strokeWidth="2.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="364.0" layoutY="184.0" prefHeight="18.0" prefWidth="77.0"
+             text="Pool Size" textFill="#c6c6c6">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="364.0" layoutY="225.0" prefHeight="18.0" prefWidth="77.0"
+             text="Container" textFill="#c6c6c6">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField alignment="CENTER" editable="false" layoutX="450.0" layoutY="219.0" prefHeight="30.0"
+                 prefWidth="124.0" promptText="Container here..."
+                 style="-fx-background-color: #282828; -fx-border-color: #b8b8b8; -fx-text-fill: #fafafa;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER_RIGHT" layoutX="364.0" layoutY="267.0" prefHeight="18.0" prefWidth="77.0"
+             text="DPE" textFill="#c6c6c6">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField alignment="CENTER" editable="false" layoutX="450.0" layoutY="261.0" prefHeight="30.0"
+                 prefWidth="124.0" promptText="DPE here..."
+                 style="-fx-background-color: #282828; -fx-border-color: #b8b8b8; -fx-text-fill: #fafafa;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</Pane>
