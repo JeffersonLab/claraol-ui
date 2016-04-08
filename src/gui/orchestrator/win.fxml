@@ -11,8 +11,7 @@
       prefWidth="381.0" style="-fx-background-color: #080808;"
       xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <HBox prefHeight="21.0"
-            prefWidth="381.0"
+      <HBox alignment="CENTER_LEFT" prefHeight="22.0" prefWidth="381.0"
             style="-fx-background-color: #282828; -fx-border-color: transparent transparent #a8a8a8 transparent;">
          <children>
             <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="233.0" text="Orchestrator" textFill="#a8a8a8">
