@@ -2,18 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e0502c6-7dba-468d-9013-d224fd6b1dd2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/claraol-ui.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/backend/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/backend/.idea/backend.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/backend/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/backend/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/backend/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/backend/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/backend/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/backend/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/.idea/.name" afterPath="$PROJECT_DIR$/src/gui/backend/.idea/.name" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/.idea/backend.iml" afterPath="$PROJECT_DIR$/src/gui/backend/.idea/backend.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/.idea/compiler.xml" afterPath="$PROJECT_DIR$/src/gui/backend/.idea/compiler.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/src/gui/backend/.idea/copyright/profiles_settings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/.idea/encodings.xml" afterPath="$PROJECT_DIR$/src/gui/backend/.idea/encodings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/.idea/misc.xml" afterPath="$PROJECT_DIR$/src/gui/backend/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/.idea/modules.xml" afterPath="$PROJECT_DIR$/src/gui/backend/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/.idea/workspace.xml" afterPath="$PROJECT_DIR$/src/gui/backend/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/Action.java" afterPath="$PROJECT_DIR$/src/gui/backend/Action.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/Application.java" afterPath="$PROJECT_DIR$/src/gui/backend/Application.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/Condition.java" afterPath="$PROJECT_DIR$/src/gui/backend/Condition.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/DataSet.java" afterPath="$PROJECT_DIR$/src/gui/backend/DataSet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/DataSource.java" afterPath="$PROJECT_DIR$/src/gui/backend/DataSource.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/Engine.java" afterPath="$PROJECT_DIR$/src/gui/backend/Engine.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/EngineConfig.java" afterPath="$PROJECT_DIR$/src/gui/backend/EngineConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/Identity.java" afterPath="$PROJECT_DIR$/src/gui/backend/Identity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/Orchestrator.java" afterPath="$PROJECT_DIR$/src/gui/backend/Orchestrator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/Service.java" afterPath="$PROJECT_DIR$/src/gui/backend/Service.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/ServiceConfig.java" afterPath="$PROJECT_DIR$/src/gui/backend/ServiceConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backend/State.java" afterPath="$PROJECT_DIR$/src/gui/backend/State.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/action/action.fxml" afterPath="$PROJECT_DIR$/src/gui/action/action.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/condition/condition.fxml" afterPath="$PROJECT_DIR$/src/gui/condition/condition.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/dataSet/win.fxml" afterPath="$PROJECT_DIR$/src/gui/dataSet/win.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/engine/win.fxml" afterPath="$PROJECT_DIR$/src/gui/engine/win.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/engineConfig/win.fxml" afterPath="$PROJECT_DIR$/src/gui/engineConfig/win.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/identity/identity.fxml" afterPath="$PROJECT_DIR$/src/gui/identity/identity.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/orchestrator/win.fxml" afterPath="$PROJECT_DIR$/src/gui/orchestrator/win.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/service/service.fxml" afterPath="$PROJECT_DIR$/src/gui/service/service.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/serviceconfig/win.fxml" afterPath="$PROJECT_DIR$/src/gui/serviceconfig/win.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/state/win.fxml" afterPath="$PROJECT_DIR$/src/gui/state/win.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/win.fxml" afterPath="$PROJECT_DIR$/src/sample/win.fxml" />
     </list>
     <ignored path="claraol-ui.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +56,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JavaFxApplication.iml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaFxApplication.iml">
+      <file leaf-file-name="DataSet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/backend/DataSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09664948">
-              <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Action.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/gui/backend/Action.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21818182">
+              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -60,7 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/gui/service/service.fxml" />
         <option value="$PROJECT_DIR$/src/gui/backend/Application.java" />
         <option value="$PROJECT_DIR$/src/gui/backend/Condition.java" />
         <option value="$PROJECT_DIR$/src/gui/backend/Action.java" />
@@ -73,6 +102,19 @@
         <option value="$PROJECT_DIR$/src/gui/backend/Identity.java" />
         <option value="$PROJECT_DIR$/src/gui/backend/Orchestrator.java" />
         <option value="$PROJECT_DIR$/src/gui/backend/Service.java" />
+        <option value="$PROJECT_DIR$/src/gui/service/combobox.css" />
+        <option value="$PROJECT_DIR$/src/sample/win.fxml" />
+        <option value="$PROJECT_DIR$/src/gui/condition/condition.fxml" />
+        <option value="$PROJECT_DIR$/src/gui/dataSet/win.fxml" />
+        <option value="$PROJECT_DIR$/src/gui/engine/win.fxml" />
+        <option value="$PROJECT_DIR$/src/gui/engineConfig/win.fxml" />
+        <option value="$PROJECT_DIR$/src/gui/identity/identity.fxml" />
+        <option value="$PROJECT_DIR$/src/gui/service/service.fxml" />
+        <option value="$PROJECT_DIR$/src/gui/serviceconfig/win.fxml" />
+        <option value="$PROJECT_DIR$/src/gui/orchestrator/win.fxml" />
+        <option value="$PROJECT_DIR$/src/gui/state/win.fxml" />
+        <option value="$PROJECT_DIR$/src/backend/Application.java" />
+        <option value="$PROJECT_DIR$/src/backend/Action.java" />
       </list>
     </option>
   </component>
@@ -89,9 +131,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="873" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -158,6 +199,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RunManager" selected="Application.fxtest">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -388,6 +430,34 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
     <configuration default="false" name="fxtest" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
@@ -450,7 +520,7 @@
     <option name="totallyTimeSpent" value="13347000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -569,16 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/orchestrator/win.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/action/action.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -610,20 +670,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/service/service.fxml">
+    <entry file="file://$PROJECT_DIR$/JavaFxApplication.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09090909">
+          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/win.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4378239">
+          <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/service/combobox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.96363634">
+          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/service/service_example.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaFxApplication.iml">
+    <entry file="file://$PROJECT_DIR$/src/gui/condition/condition.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09664948">
-          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.84563756">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/dataSet/win.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81606215">
+          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/engine/win.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54404145">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/dataSource/win.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13601036">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/identity/identity.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72483224">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/engineConfig/win.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69948184">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/service/service.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83549225">
+          <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/serviceconfig/win.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6217617">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/orchestrator/win.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83549225">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/state/win.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6800518">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/backend/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/backend/DataSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/backend/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21818182">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
           <folding />
         </state>
       </provider>
