@@ -4,35 +4,42 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="245.0"
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="307.0"
       prefWidth="424.0" style="-fx-background-color: #080808;"
       xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <HBox alignment="CENTER_LEFT" prefHeight="25.0" prefWidth="424.0"
-            style="-fx-background-color: #282828; -fx-border-color: transparent transparent #B8B8B8 transparent;">
+            style="-fx-background-color: #282828; -fx-border-color: transparent transparent #888888 transparent;">
          <children>
-            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="253.0" text="Condition" textFill="#b8b8b8" />
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="241.0" text="Condition" textFill="#b8b8b8" />
          </children>
       </HBox>
-      <HBox layoutX="14.0" layoutY="123.0" prefHeight="57.0"
-            prefWidth="395.0" style="-fx-border-color: #B8B8B8 transparent #B8B8B8 transparent;">
+      <HBox layoutX="14.0" layoutY="123.0" prefHeight="57.0" prefWidth="395.0"
+            style="-fx-border-color: #B8B8B8 transparent #B8B8B8 transparent;">
          <children>
             <Label prefHeight="55.0" prefWidth="233.0"
                    text="Will send a service based on whether the underlying condition is true or false."
                    textFill="#b8b8b8" wrapText="true" />
          </children>
       </HBox>
-      <Button layoutX="14.0" layoutY="200.0" mnemonicParsing="false" stylesheets="@../action/button.css"
-              text="Execution State" />
-      <Button layoutX="175.0" layoutY="200.0" mnemonicParsing="false" stylesheets="@../action/button.css"
-              text="Recieve State" />
-      <Button layoutX="323.0" layoutY="200.0" mnemonicParsing="false" stylesheets="@../action/button.css"
+      <Button layoutX="324.0" layoutY="265.0" mnemonicParsing="false" stylesheets="@../action/button.css"
               text="Close" />
-      <Label alignment="CENTER_RIGHT" layoutX="72.0" layoutY="61.0" prefHeight="16.0" prefWidth="140.0"
-             text="Logical Relationship" textFill="#b8b8b8" />
-      <TextField alignment="CENTER" layoutX="223.0" layoutY="56.0" promptText="claraLogic"
-                 style="-fx-background-color: transparent; -fx-border-color: #B8B8B8; -fx-text-fill: #B8B8B8;" />
-      <Button layoutX="277.0" layoutY="136.0" mnemonicParsing="false" stylesheets="@../action/button.css" text="Send" />
+      <Label alignment="CENTER_RIGHT" layoutX="27.0" layoutY="62.0" prefHeight="16.0" prefWidth="129.0"
+             text="Logical Relationship:" textFill="#b8b8b8" />
+      <TextField alignment="CENTER" layoutX="163.0" layoutY="56.0" prefHeight="28.0" prefWidth="248.0"
+                 promptText="claraLogic"
+                 style="-fx-background-color: #181818; -fx-border-color: #B8B8B8; -fx-text-fill: #B8B8B8;" />
+      <Button layoutX="277.0" layoutY="136.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="135.0"
+              stylesheets="@../action/button.css" text="Send" />
+      <TextField alignment="CENTER" layoutX="163.0" layoutY="188.0" prefHeight="28.0" prefWidth="248.0"
+                 promptText="Display/Link of Execution State..."
+                 style="-fx-background-color: #181818; -fx-border-color: #B8B8B8; -fx-text-fill: #B8B8B8;" />
+      <Label alignment="CENTER_RIGHT" layoutX="27.0" layoutY="194.0" prefHeight="16.0" prefWidth="129.0"
+             text="Execution State:" textFill="#b8b8b8" />
+      <Label alignment="CENTER_RIGHT" layoutX="27.0" layoutY="232.0" prefHeight="16.0" prefWidth="129.0"
+             text="Recieve State:" textFill="#b8b8b8" />
+      <TextField alignment="CENTER" layoutX="163.0" layoutY="226.0" prefHeight="28.0" prefWidth="248.0"
+                 promptText="Display/Link of Recieve State..."
+                 style="-fx-background-color: #181818; -fx-border-color: #B8B8B8; -fx-text-fill: #B8B8B8;" />
    </children>
 </Pane>
