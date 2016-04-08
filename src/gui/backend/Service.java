@@ -126,7 +126,7 @@ public interface Service {
      * 
      * @return a value for the hasIdentity property.
      */
-    Collection<? extends Identity> getIdentity();
+    Identity getIdentity();
 
     /**
      * Checks if the class has a hasIdentity property value.<p>
@@ -244,7 +244,7 @@ public interface Service {
      * 
      * @return a value for the hasDpe property.
      */
-    Collection<? extends String> getDpe();
+    String getDpe();
 
     /**
      * Checks if the class has a hasDpe property value.<p>
