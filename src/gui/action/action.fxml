@@ -4,27 +4,17 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-      prefHeight="166.0" prefWidth="405.0" style="-fx-background-color: #080808;"
-      xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="166.0" prefWidth="405.0" style="-fx-background-color: #080808;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <HBox alignment="CENTER_LEFT" prefHeight="26.0" prefWidth="405.0"
-            style="-fx-background-color: #282828; -fx-border-color: transparent transparent #989898 transparent;">
+      <HBox alignment="CENTER_LEFT" prefHeight="26.0" prefWidth="405.0" style="-fx-background-color: #282828; -fx-border-color: transparent transparent #989898 transparent;">
          <children>
-            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="251.0" text="Action Options"
-                   textFill="#a4a4a4" />
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="251.0" text="Action Options" textFill="#a4a4a4" />
          </children>
       </HBox>
-      <Label layoutX="29.0" layoutY="52.0" text="Service Selected" textFill="#cdcdcd" />
-      <TextField editable="false" layoutX="137.0" layoutY="47.0" prefHeight="28.0" prefWidth="245.0"
-                 promptText="Service"
-                 style="-fx-background-color: transparent; -fx-border-color: #989898; -fx-text-fill: #B8B8B8;" />
-      <Button layoutX="10.0" layoutY="125.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="156.0"
-              stylesheets="@button.css" text="Send to Service" />
-      <Button layoutX="171.0" layoutY="125.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="120.0"
-              stylesheets="@button.css" text="Send Data" />
-      <Button layoutX="296.0" layoutY="125.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="99.0"
-              stylesheets="@button.css" text="Cancel" />
+      <Label layoutX="31.0" layoutY="67.0" text="Service Selected" textFill="#cdcdcd" />
+      <TextField editable="false" layoutX="137.0" layoutY="61.0" prefHeight="28.0" prefWidth="245.0" promptText="Service" style="-fx-background-color: #181818; -fx-border-color: #989898; -fx-text-fill: #B8B8B8;" />
+      <Button layoutX="10.0" layoutY="125.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="156.0" stylesheets="@button.css" text="Send to Service" />
+      <Button layoutX="171.0" layoutY="125.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="120.0" stylesheets="@button.css" text="Send Data" />
+      <Button layoutX="296.0" layoutY="125.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="99.0" stylesheets="@button.css" text="Cancel" />
    </children>
 </Pane>
