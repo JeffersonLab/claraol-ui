@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
@@ -7,44 +8,37 @@
 
 <!-- Height 267.0    Width : 381.0 -->
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="267.0"
-      prefWidth="381.0" style="-fx-background-color: #080808;"
-      xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="320.0" prefWidth="381.0" style="-fx-background-color: #080808;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <HBox alignment="CENTER_LEFT" prefHeight="22.0" prefWidth="381.0"
-            style="-fx-background-color: #282828; -fx-border-color: transparent transparent #a8a8a8 transparent;">
+      <HBox alignment="CENTER_LEFT" prefHeight="22.0" prefWidth="381.0" style="-fx-background-color: #282828; -fx-border-color: transparent transparent #a8a8a8 transparent;">
          <children>
-            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="233.0" text="Orchestrator" textFill="#a8a8a8">
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="345.0" text="Orchestrator" textFill="#a8a8a8">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
          </children>
       </HBox>
-      <Label alignment="CENTER_RIGHT" layoutX="84.0" layoutY="47.0" prefHeight="16.0" prefWidth="87.0"
-             text="Error Monitor" textFill="#c9c9c9" />
-      <TextField alignment="CENTER" layoutX="180.0" layoutY="41.0" prefHeight="28.0" prefWidth="133.0"
-                 promptText="Boolean"
-                 style="-fx-background-color: #001000; -fx-border-color: #a8a8a8; -fx-text-fill: #FFFFFF;" />
-      <TextField alignment="CENTER" layoutX="180.0" layoutY="80.0" prefHeight="28.0" prefWidth="133.0"
-                 promptText="Boolean"
-                 style="-fx-background-color: #001000; -fx-border-color: #a8a8a8; -fx-text-fill: #FFFFFF;" />
-      <Label alignment="CENTER_RIGHT" layoutX="57.0" layoutY="86.0" prefHeight="16.0" prefWidth="114.0"
-             text="Warning Monitor" textFill="#c9c9c9" />
-      <TextField alignment="CENTER" layoutX="180.0" layoutY="119.0" prefHeight="28.0" prefWidth="133.0"
-                 promptText="Boolean"
-                 style="-fx-background-color: #001000; -fx-border-color: #a8a8a8; -fx-text-fill: #FFFFFF;" />
-      <Label alignment="CENTER_RIGHT" layoutX="69.0" layoutY="125.0" prefHeight="16.0" prefWidth="102.0"
-             text="Info Monitor" textFill="#c9c9c9" />
-      <Button layoutX="90.0" layoutY="175.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="93.0"
-              stylesheets="@../action/button.css" text="Run" />
-      <Button layoutX="194.0" layoutY="175.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="102.0"
-              stylesheets="@../action/button.css" text="Action" />
-      <Label layoutX="10.0" layoutY="241.0" prefHeight="16.0" prefWidth="233.0"
-             text="Action will run based on the values in the monitor." textFill="#c6c6c6">
+      <Label alignment="CENTER_RIGHT" layoutX="134.0" layoutY="57.0" prefHeight="16.0" prefWidth="87.0" text="Error Monitor" textFill="#c9c9c9" />
+      <TextField alignment="CENTER" layoutX="230.0" layoutY="51.0" prefHeight="28.0" prefWidth="133.0" promptText="Boolean" style="-fx-background-color: #001000; -fx-border-color: #a8a8a8; -fx-text-fill: #FFFFFF;" />
+      <TextField alignment="CENTER" layoutX="230.0" layoutY="90.0" prefHeight="28.0" prefWidth="133.0" promptText="Boolean" style="-fx-background-color: #001000; -fx-border-color: #a8a8a8; -fx-text-fill: #FFFFFF;" />
+      <Label alignment="CENTER_RIGHT" layoutX="119.0" layoutY="96.0" prefHeight="16.0" prefWidth="102.0" text="Warning Monitor" textFill="#c9c9c9" />
+      <TextField alignment="CENTER" layoutX="230.0" layoutY="129.0" prefHeight="28.0" prefWidth="133.0" promptText="Boolean" style="-fx-background-color: #001000; -fx-border-color: #a8a8a8; -fx-text-fill: #FFFFFF;" />
+      <Label alignment="CENTER_RIGHT" layoutX="119.0" layoutY="135.0" prefHeight="16.0" prefWidth="102.0" text="Info Monitor" textFill="#c9c9c9" />
+      <Button layoutX="157.0" layoutY="239.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="93.0" stylesheets="@../action/button.css" text="Run" />
+      <Button layoutX="261.0" layoutY="239.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="102.0" stylesheets="@../action/button.css" text="Action" />
+      <Label layoutX="148.0" layoutY="292.0" prefHeight="16.0" prefWidth="233.0" text="Action will run based on the values in the monitor." textFill="#c6c6c6">
          <font>
             <Font size="10.0" />
          </font>
       </Label>
+      <Button layoutX="10.0" layoutY="238.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="102.0" stylesheets="@../action/button.css" text="Okay" />
+      <Button layoutX="10.0" layoutY="275.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="102.0" stylesheets="@../action/button.css" text="Cancel" />
+      <Line endX="25.0" fill="WHITE" layoutX="101.0" layoutY="219.0" startX="-100.0" stroke="WHITE" />
+      <Line endX="25.0" fill="WHITE" layoutX="151.0" layoutY="269.0" rotate="90.0" startX="-75.0" stroke="WHITE" />
+      <Label alignment="CENTER_RIGHT" layoutX="5.0" layoutY="128.0" prefHeight="89.0" prefWidth="87.0" text="Data Source Textbox on the side opens another window" textFill="#c9c9c9" wrapText="true" />
+      <Line endX="160.0" fill="WHITE" layoutX="210.0" layoutY="180.0" startX="-75.0" stroke="WHITE" />
+      <Label alignment="CENTER_RIGHT" layoutX="107.0" layoutY="197.0" prefHeight="16.0" prefWidth="114.0" text="Data Source Value" textFill="#c9c9c9" />
+      <TextField alignment="CENTER" layoutX="230.0" layoutY="191.0" prefHeight="28.0" prefWidth="133.0" promptText="hasValue" style="-fx-background-color: #001000; -fx-border-color: #a8a8a8; -fx-text-fill: #FFFFFF;" />
    </children>
 </Pane>

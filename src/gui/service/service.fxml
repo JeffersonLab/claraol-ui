@@ -6,13 +6,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0"
-      prefWidth="600.0" style="-fx-background-color: #181818;"
-      xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="600.0" style="-fx-background-color: #181818;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <HBox prefHeight="28.0" prefWidth="600.0"
-            style="-fx-background-color: #484848; -fx-border-color: transparent transparent #a8a8a8 transparent;">
+      <HBox prefHeight="28.0" prefWidth="600.0" style="-fx-background-color: #484848; -fx-border-color: transparent transparent #a8a8a8 transparent;">
          <children>
             <Label alignment="CENTER_RIGHT" prefHeight="25.0" prefWidth="553.0" text="Service" textFill="WHITE">
                <font>
@@ -26,91 +22,68 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <ComboBox layoutX="70.0" layoutY="73.0" prefWidth="150.0" promptText="Links" style="-fx-border-color: #181818;"
-                stylesheets="@combobox.css" />
-      <ComboBox layoutX="229.0" layoutY="73.0" prefWidth="150.0" promptText="Conditions"
-                style="-fx-border-color: #181818;" stylesheets="@combobox.css" />
-      <ComboBox layoutX="388.0" layoutY="73.0" prefWidth="150.0" promptText="States"
-                style="-fx-border-color: #181818;" stylesheets="@combobox.css" />
-      <Label layoutX="184.0" layoutY="39.0"
-             text="|  Selecting from these dropdowns will open up another window" textFill="#9c9c9c" />
+      <ComboBox layoutX="70.0" layoutY="73.0" prefWidth="150.0" promptText="Links" style="-fx-border-color: #181818;" stylesheets="@combobox.css" />
+      <ComboBox layoutX="229.0" layoutY="73.0" prefWidth="150.0" promptText="Conditions" style="-fx-border-color: #181818;" stylesheets="@combobox.css" />
+      <ComboBox layoutX="388.0" layoutY="73.0" prefWidth="150.0" promptText="States" style="-fx-border-color: #181818;" stylesheets="@combobox.css" />
+      <Label layoutX="184.0" layoutY="39.0" text="|  Selecting from these dropdowns will open up another window" textFill="#9c9c9c" />
       <Line endX="500.0" layoutX="101.0" layoutY="127.0" startX="-100.0" stroke="#484848" strokeWidth="2.0" />
-      <Label alignment="CENTER_RIGHT" layoutX="24.0" layoutY="184.0" prefHeight="18.0"
-             prefWidth="77.0" text="Identity" textFill="#c6c6c6">
+      <Label alignment="CENTER_RIGHT" layoutX="29.0" layoutY="178.0" prefHeight="18.0" prefWidth="77.0" text="Identity" textFill="#c6c6c6">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField alignment="CENTER" editable="false" layoutX="109.0" layoutY="178.0" prefHeight="30.0"
-                 prefWidth="217.0" promptText="Identity Link/Text here..."
-                 style="-fx-background-color: #282828; -fx-border-color: #b8b8b8; -fx-text-fill: #fafafa;">
+      <TextField alignment="CENTER" editable="false" layoutX="114.0" layoutY="172.0" prefHeight="30.0" prefWidth="217.0" promptText="Identity Link/Text here..." style="-fx-background-color: #282828; -fx-border-color: #b8b8b8; -fx-text-fill: #fafafa;">
          <font>
             <Font size="14.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" editable="false" layoutX="109.0" layoutY="219.0" prefHeight="30.0"
-                 prefWidth="217.0" promptText="Configuration Link/Text here..."
-                 style="-fx-background-color: #282828; -fx-border-color: #b8b8b8; -fx-text-fill: #fafafa;">
+      <TextField alignment="CENTER" editable="false" layoutX="114.0" layoutY="213.0" prefHeight="30.0" prefWidth="217.0" promptText="Configuration Link/Text here..." style="-fx-background-color: #282828; -fx-border-color: #b8b8b8; -fx-text-fill: #fafafa;">
          <font>
             <Font size="14.0" />
          </font>
       </TextField>
-      <Label alignment="CENTER_RIGHT" layoutX="10.0" layoutY="225.0" prefHeight="18.0" prefWidth="91.0"
-             text="Configuration" textFill="#c6c6c6">
+      <Label alignment="CENTER_RIGHT" layoutX="15.0" layoutY="219.0" prefHeight="18.0" prefWidth="91.0" text="Configuration" textFill="#c6c6c6">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField alignment="CENTER" editable="false" layoutX="109.0" layoutY="261.0" prefHeight="30.0"
-                 prefWidth="217.0" promptText="Engine Link/Text here..."
-                 style="-fx-background-color: #282828; -fx-border-color: #b8b8b8; -fx-text-fill: #fafafa;">
+      <TextField alignment="CENTER" editable="false" layoutX="114.0" layoutY="255.0" prefHeight="30.0" prefWidth="217.0" promptText="Engine Link/Text here..." style="-fx-background-color: #282828; -fx-border-color: #b8b8b8; -fx-text-fill: #fafafa;">
          <font>
             <Font size="14.0" />
          </font>
       </TextField>
-      <Label alignment="CENTER_RIGHT" layoutX="24.0" layoutY="267.0" prefHeight="18.0" prefWidth="77.0"
-             text="Engine" textFill="#c6c6c6">
+      <Label alignment="CENTER_RIGHT" layoutX="29.0" layoutY="261.0" prefHeight="18.0" prefWidth="77.0" text="Engine" textFill="#c6c6c6">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField alignment="CENTER" editable="false" layoutX="450.0" layoutY="178.0" prefHeight="30.0"
-                 prefWidth="124.0" promptText="Pool Size here..."
-                 style="-fx-background-color: #282828; -fx-border-color: #b8b8b8; -fx-text-fill: #fafafa;">
+      <TextField alignment="CENTER" editable="false" layoutX="450.0" layoutY="178.0" prefHeight="30.0" prefWidth="124.0" promptText="Pool Size here..." style="-fx-background-color: #282828; -fx-border-color: #b8b8b8; -fx-text-fill: #fafafa;">
          <font>
             <Font size="14.0" />
          </font>
       </TextField>
-      <Line endX="113.0" layoutX="344.0" layoutY="234.0" rotate="90.0" startX="-100.0" stroke="#484848"
-            strokeWidth="2.0" />
-      <Label alignment="CENTER_RIGHT" layoutX="364.0" layoutY="184.0" prefHeight="18.0" prefWidth="77.0"
-             text="Pool Size" textFill="#c6c6c6">
+      <Line endX="113.0" layoutX="344.0" layoutY="234.0" rotate="90.0" startX="-100.0" stroke="#484848" strokeWidth="2.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="364.0" layoutY="184.0" prefHeight="18.0" prefWidth="77.0" text="Pool Size" textFill="#c6c6c6">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label alignment="CENTER_RIGHT" layoutX="364.0" layoutY="225.0" prefHeight="18.0" prefWidth="77.0"
-             text="Container" textFill="#c6c6c6">
+      <Label alignment="CENTER_RIGHT" layoutX="364.0" layoutY="225.0" prefHeight="18.0" prefWidth="77.0" text="Container" textFill="#c6c6c6">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField alignment="CENTER" editable="false" layoutX="450.0" layoutY="219.0" prefHeight="30.0"
-                 prefWidth="124.0" promptText="Container here..."
-                 style="-fx-background-color: #282828; -fx-border-color: #b8b8b8; -fx-text-fill: #fafafa;">
+      <TextField alignment="CENTER" editable="false" layoutX="450.0" layoutY="219.0" prefHeight="30.0" prefWidth="124.0" promptText="Container here..." style="-fx-background-color: #282828; -fx-border-color: #b8b8b8; -fx-text-fill: #fafafa;">
          <font>
             <Font size="14.0" />
          </font>
       </TextField>
-      <Label alignment="CENTER_RIGHT" layoutX="364.0" layoutY="267.0" prefHeight="18.0" prefWidth="77.0"
-             text="DPE" textFill="#c6c6c6">
+      <Label alignment="CENTER_RIGHT" layoutX="364.0" layoutY="267.0" prefHeight="18.0" prefWidth="77.0" text="DPE" textFill="#c6c6c6">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField alignment="CENTER" editable="false" layoutX="450.0" layoutY="261.0" prefHeight="30.0"
-                 prefWidth="124.0" promptText="DPE here..."
-                 style="-fx-background-color: #282828; -fx-border-color: #b8b8b8; -fx-text-fill: #fafafa;">
+      <TextField alignment="CENTER" editable="false" layoutX="450.0" layoutY="261.0" prefHeight="30.0" prefWidth="124.0" promptText="DPE here..." style="-fx-background-color: #282828; -fx-border-color: #b8b8b8; -fx-text-fill: #fafafa;">
          <font>
             <Font size="14.0" />
          </font>

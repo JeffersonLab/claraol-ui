@@ -7,53 +7,38 @@
 
 <!--   Height: 191.0  Width: 330.0 -->
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="191.0"
-      prefWidth="330.0" style="-fx-background-color: #181818;"
-      xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="233.0" prefWidth="330.0" style="-fx-background-color: #181818;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <HBox alignment="CENTER_LEFT" layoutX="2.0" prefHeight="26.0" prefWidth="325.0"
-            style="-fx-border-color: #181818 #181818 #B8B8B8 #181818;">
+      <HBox alignment="CENTER_LEFT" prefHeight="26.0" prefWidth="330.0" style="-fx-border-color: transparent transparent #B8B8B8 transparent; -fx-background-color: #282828;">
          <children>
-            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="202.0" text="Data Source"
-                   textFill="#eeeeee" />
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="308.0" text="Data Source" textFill="#eeeeee" />
          </children>
       </HBox>
-      <Label alignment="CENTER_RIGHT" layoutX="6.0" layoutY="39.0" prefHeight="16.0" prefWidth="87.0"
-             text="Directory" textFill="WHITE" />
-      <TextField alignment="CENTER" layoutX="102.0" layoutY="34.0" prefHeight="26.0" prefWidth="213.0"
-                 promptText="Boolean is there a Dir?"
-                 style="-fx-background-color: transparent; -fx-border-color: #B8B8B8; -fx-text-fill: #FFFFFF;">
+      <Label alignment="CENTER_RIGHT" layoutX="11.0" layoutY="41.0" prefHeight="16.0" prefWidth="87.0" text="Directory" textFill="WHITE" />
+      <TextField alignment="CENTER_RIGHT" layoutX="107.0" layoutY="36.0" prefHeight="26.0" prefWidth="213.0" promptText="Boolean is there a Dir?" style="-fx-background-color: #282828; -fx-border-color: #B8B8B8; -fx-text-fill: #FFFFFF;">
          <font>
             <Font size="10.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" layoutX="102.0" layoutY="73.0" prefHeight="26.0" prefWidth="213.0"
-                 promptText="Boolean is there a FIle?"
-                 style="-fx-background-color: transparent; -fx-border-color: #B8B8B8; -fx-text-fill: #FFFFFF;">
+      <TextField alignment="CENTER_RIGHT" layoutX="107.0" layoutY="75.0" prefHeight="26.0" prefWidth="213.0" promptText="Boolean is there a FIle?" style="-fx-background-color: #282828; -fx-border-color: #B8B8B8; -fx-text-fill: #FFFFFF;">
          <font>
             <Font size="10.0" />
          </font>
       </TextField>
-      <Label alignment="CENTER_RIGHT" layoutX="6.0" layoutY="78.0" prefHeight="16.0" prefWidth="87.0" text="File"
-             textFill="WHITE" />
-      <TextField alignment="CENTER" layoutX="102.0" layoutY="111.0" prefHeight="26.0" prefWidth="213.0"
-                 promptText="Clara Data type"
-                 style="-fx-background-color: transparent; -fx-border-color: #B8B8B8; -fx-text-fill: #FFFFFF;">
+      <Label alignment="CENTER_RIGHT" layoutX="11.0" layoutY="80.0" prefHeight="16.0" prefWidth="87.0" text="File" textFill="WHITE" />
+      <TextField alignment="CENTER_RIGHT" layoutX="107.0" layoutY="113.0" prefHeight="26.0" prefWidth="213.0" promptText="Clara Data type" style="-fx-background-color: #282828; -fx-border-color: #B8B8B8; -fx-text-fill: #FFFFFF;">
          <font>
             <Font size="10.0" />
          </font>
       </TextField>
-      <Label alignment="CENTER_RIGHT" layoutX="6.0" layoutY="116.0" prefHeight="16.0" prefWidth="87.0" text="Type"
-             textFill="WHITE" />
-      <TextField alignment="CENTER" layoutX="102.0" layoutY="149.0" prefHeight="26.0" prefWidth="213.0"
-                 promptText="String value"
-                 style="-fx-background-color: transparent; -fx-border-color: #B8B8B8; -fx-text-fill: #FFFFFF;">
+      <Label alignment="CENTER_RIGHT" layoutX="11.0" layoutY="118.0" prefHeight="16.0" prefWidth="87.0" text="Type" textFill="WHITE" />
+      <TextField alignment="CENTER_RIGHT" layoutX="107.0" layoutY="151.0" prefHeight="26.0" prefWidth="213.0" promptText="String value" style="-fx-background-color: #282828; -fx-border-color: #B8B8B8; -fx-text-fill: #FFFFFF;">
          <font>
             <Font size="10.0" />
          </font>
       </TextField>
-      <Label alignment="CENTER_RIGHT" layoutX="6.0" layoutY="154.0" prefHeight="16.0" prefWidth="87.0"
-             text="Value" textFill="WHITE" />
+      <Label alignment="CENTER_RIGHT" layoutX="11.0" layoutY="156.0" prefHeight="16.0" prefWidth="87.0" text="Value" textFill="WHITE" />
+      <Button layoutX="11.0" layoutY="191.0" mnemonicParsing="false" stylesheets="@../action/button.css" text="Okay" />
+      <Label alignment="CENTER" layoutX="98.0" layoutY="187.0" prefHeight="38.0" prefWidth="221.0" text="This window displays the Data Source and Routing Settings" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
    </children>
 </Pane>

@@ -8,33 +8,21 @@
 
 <!-- Height 229.0, Width 341.0-->
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="244.0"
-      prefWidth="341.0" style="-fx-background-color: #181818;"
-      xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="275.0" prefWidth="341.0" style="-fx-background-color: #181818;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <HBox alignment="CENTER_LEFT" prefHeight="29.0" prefWidth="341.0"
-            style="-fx-border-color: transparent transparent #B8B8B8 transparent; -fx-background-color: #232323;">
+      <HBox alignment="CENTER_LEFT" prefHeight="29.0" prefWidth="341.0" style="-fx-border-color: transparent transparent #B8B8B8 transparent; -fx-background-color: #232323;">
          <children>
-            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="217.0"
-                   text="Identity Components given below:" textFill="#b8b8b8" />
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="321.0" text="Identity Components given below:" textFill="#b8b8b8" />
          </children>
       </HBox>
-      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="56.0" prefHeight="16.0" prefWidth="80.0"
-             text="Author" textFill="#b8b8b8" />
-      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="88.0" prefHeight="16.0" prefWidth="80.0" text="Name"
-             textFill="#b8b8b8" />
-      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="121.0" prefHeight="16.0" prefWidth="80.0" text="Version"
-             textFill="#b8b8b8" />
-      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="152.0" prefHeight="16.0" prefWidth="80.0" text="Description"
-             textFill="#b8b8b8" />
-      <TextField alignment="CENTER" layoutX="112.0" layoutY="51.0" prefHeight="16.0" prefWidth="204.0" promptText="Author"
-                 style="-fx-background-color: #202020; -fx-border-color: #B8B8B8; -fx-text-fill: #F8F8F8;" />
-      <TextField alignment="CENTER" layoutX="112.0" layoutY="82.0" prefHeight="16.0" prefWidth="204.0" promptText="Name"
-                 style="-fx-background-color: #202020; -fx-border-color: #B8B8B8; -fx-text-fill: #F8F8F8;" />
-      <TextField alignment="CENTER" layoutX="112.0" layoutY="115.0" prefHeight="16.0" prefWidth="204.0" promptText="Version"
-                 style="-fx-background-color: #202020; -fx-border-color: #B8B8B8; -fx-text-fill: #F8F8F8;" />
-      <TextArea layoutX="112.0" layoutY="150.0" prefHeight="73.0" prefWidth="204.0" promptText="Description..."
-                style="-fx-background-color: #202020; -fx-border-color: #b8b8b8;" stylesheets="@style.css" wrapText="true">
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="56.0" prefHeight="16.0" prefWidth="80.0" text="Author" textFill="#b8b8b8" />
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="88.0" prefHeight="16.0" prefWidth="80.0" text="Name" textFill="#b8b8b8" />
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="121.0" prefHeight="16.0" prefWidth="80.0" text="Version" textFill="#b8b8b8" />
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="152.0" prefHeight="16.0" prefWidth="80.0" text="Description" textFill="#b8b8b8" />
+      <TextField alignment="CENTER" layoutX="112.0" layoutY="51.0" prefHeight="28.0" prefWidth="213.0" promptText="Author" style="-fx-background-color: #202020; -fx-border-color: #B8B8B8; -fx-text-fill: #F8F8F8;" />
+      <TextField alignment="CENTER" layoutX="112.0" layoutY="82.0" prefHeight="28.0" prefWidth="213.0" promptText="Name" style="-fx-background-color: #202020; -fx-border-color: #B8B8B8; -fx-text-fill: #F8F8F8;" />
+      <TextField alignment="CENTER" layoutX="112.0" layoutY="115.0" prefHeight="28.0" prefWidth="213.0" promptText="Version" style="-fx-background-color: #202020; -fx-border-color: #B8B8B8; -fx-text-fill: #F8F8F8;" />
+      <TextArea layoutX="112.0" layoutY="150.0" prefHeight="73.0" prefWidth="213.0" promptText="Description..." style="-fx-background-color: #202020; -fx-border-color: #b8b8b8;" stylesheets="@style.css" wrapText="true">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
@@ -42,5 +30,12 @@
             <Font size="11.0" />
          </font>
       </TextArea>
+      <Button layoutX="232.0" layoutY="233.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="94.0" stylesheets="@../action/button.css" text="Okay" />
+      <Label alignment="CENTER" layoutX="6.0" layoutY="226.0" prefHeight="45.0" prefWidth="121.0" text="Identity window just displays identity values, and descriptions" textAlignment="CENTER" textFill="#b8b8b8" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Button layoutX="133.0" layoutY="233.0" mnemonicParsing="false" stylesheets="@../action/button.css" text="Cancel" />
    </children>
 </Pane>
