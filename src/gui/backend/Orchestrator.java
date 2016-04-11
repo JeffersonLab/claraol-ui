@@ -32,6 +32,31 @@ package gui.backend;
 public interface Orchestrator {
 
     /* ***************************************************
+     * Property http://claraweb.jlab.org/ontology/2015/11/ClaraOL#name
+     */
+
+    /**
+     * Gets property value for the name property.<p>
+     *
+     * @return a value for the name property.
+     */
+    String getName();
+
+    /**
+     * Checks if the class has a name property value.<p>
+     *
+     * @return true if there is a name property value.
+     */
+    boolean hasName();
+
+    /**
+     * Adds a name property value.<p>
+     *
+     * @param newName the name property value to be added
+     */
+    void setName(String newName);
+
+    /* ***************************************************
      * Property http://claraweb.jlab.org/ontology/2015/11/ClaraOL#actsOnError
      */
      
