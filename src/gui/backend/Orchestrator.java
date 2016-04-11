@@ -22,7 +22,6 @@
 
 package gui.backend;
 
-import java.util.Collection;
 
 /**
  * 
@@ -41,7 +40,7 @@ public interface Orchestrator {
      * 
      * @return a values for the actsOnError property.
      */
-    Collection<? extends Action> getActsOnError();
+    Action getActsOnError();
 
     /**
      * Checks if the class has a actsOnError property value.<p>
