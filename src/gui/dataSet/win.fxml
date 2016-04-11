@@ -8,36 +8,27 @@
 
 <!-- Height: 198.0   Width 360.0 -->
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="212.0"
-      prefWidth="360.0" style="-fx-background-color: #080808;"
-      xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="212.0" prefWidth="406.0" style="-fx-background-color: #080808;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <HBox prefHeight="22.0" prefWidth="360.0"
-            style="-fx-background-color: #282828; -fx-border-color: transparent transparent #9e9e9e transparent;">
+      <HBox prefHeight="22.0" prefWidth="406.0" style="-fx-background-color: #282828; -fx-border-color: transparent transparent #9e9e9e transparent;">
          <children>
-            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="75.0" text="Data Set" textFill="#cdcdcd">
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="390.0" text="Data Set" textFill="#cdcdcd">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
          </children>
       </HBox>
-      <Label alignment="CENTER_RIGHT" layoutX="11.0" layoutY="39.0" prefHeight="16.0" prefWidth="144.0"
-             text="Output File Prefix" textFill="#cdcdcd" />
-      <Label alignment="CENTER_RIGHT" layoutX="11.0" layoutY="77.0" prefHeight="16.0" prefWidth="144.0"
-             text="Output File Suffix" textFill="#cdcdcd" />
-      <TextField alignment="CENTER" layoutX="170.0" layoutY="33.0" promptText="Prefix"
-                 style="-fx-background-color: #131313; -fx-text-fill: #FFFFFF; -fx-border-color: #a3a3a3;" />
-      <TextField alignment="CENTER" layoutX="170.0" layoutY="71.0" promptText="Suffix"
-                 style="-fx-background-color: #131313; -fx-text-fill: #FFFFFF; -fx-border-color: #a3a3a3;" />
-      <TextField alignment="CENTER" layoutX="170.0" layoutY="131.0" promptText="Data/Link DataSource..."
-                 style="-fx-background-color: #131313; -fx-text-fill: #FFFFFF; -fx-border-color: #a3a3a3;" />
-      <Label alignment="CENTER_RIGHT" layoutX="11.0" layoutY="137.0" prefHeight="16.0" prefWidth="144.0"
-             text="Input Source:" textFill="#cdcdcd" />
-      <Label alignment="CENTER_RIGHT" layoutX="11.0" layoutY="174.0" prefHeight="16.0" prefWidth="144.0"
-             text="Output Source" textFill="#cdcdcd" />
-      <TextField alignment="CENTER" layoutX="170.0" layoutY="168.0" promptText="Data/Link DataSource..."
-                 style="-fx-background-color: #131313; -fx-text-fill: #FFFFFF; -fx-border-color: #a3a3a3;" />
-      <Line endX="240.0" layoutX="115.0" layoutY="114.0" startX="-110.0" stroke="#aeaeae" />
+      <Label alignment="CENTER_RIGHT" layoutX="66.0" layoutY="39.0" prefHeight="16.0" prefWidth="144.0" text="Output File Prefix" textFill="#cdcdcd" />
+      <Label alignment="CENTER_RIGHT" layoutX="66.0" layoutY="77.0" prefHeight="16.0" prefWidth="144.0" text="Output File Suffix" textFill="#cdcdcd" />
+      <TextField alignment="CENTER_RIGHT" layoutX="216.0" layoutY="33.0" prefHeight="28.0" prefWidth="176.0" promptText="Prefix" style="-fx-background-color: #131313; -fx-text-fill: #FFFFFF; -fx-border-color: #a3a3a3;" />
+      <TextField alignment="CENTER_RIGHT" layoutX="216.0" layoutY="71.0" prefHeight="28.0" prefWidth="176.0" promptText="Suffix" style="-fx-background-color: #131313; -fx-text-fill: #FFFFFF; -fx-border-color: #a3a3a3;" />
+      <TextField alignment="CENTER_RIGHT" layoutX="216.0" layoutY="131.0" prefHeight="28.0" prefWidth="176.0" promptText="Data/Link DataSource..." style="-fx-background-color: #131313; -fx-text-fill: #FFFFFF; -fx-border-color: #a3a3a3;" />
+      <Label alignment="CENTER_RIGHT" layoutX="122.0" layoutY="137.0" prefHeight="16.0" prefWidth="88.0" text="Input Source:" textFill="#cdcdcd" />
+      <Label alignment="CENTER_RIGHT" layoutX="122.0" layoutY="174.0" prefHeight="16.0" prefWidth="88.0" text="Output Source" textFill="#cdcdcd" />
+      <TextField alignment="CENTER_RIGHT" layoutX="216.0" layoutY="168.0" prefHeight="28.0" prefWidth="176.0" promptText="Data/Link DataSource..." style="-fx-background-color: #131313; -fx-text-fill: #FFFFFF; -fx-border-color: #a3a3a3;" />
+      <Line endX="285.0" layoutX="115.0" layoutY="114.0" startX="-110.0" stroke="#aeaeae" />
+      <Button layoutX="5.0" layoutY="175.0" mnemonicParsing="false" stylesheets="@../action/button.css" text="Cancel" />
+      <Button layoutX="5.0" layoutY="138.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="94.0" stylesheets="@../action/button.css" text="Okay" />
    </children>
 </Pane>
