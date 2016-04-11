@@ -2,13 +2,15 @@ package sample;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import gui.backend.*;
 import javafx.fxml.FXML;
 import javafx.event.EventHandler;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
-import javafx.scene.control.Button;;
+import javafx.scene.control.*;;
 import gui.service.Main;
 import javafx.stage.Stage;
 
@@ -17,6 +19,19 @@ public class Controller implements Initializable {
     @FXML
     private Button close_button,
                    Open_services; // value will be injected by the FXMLLoader
+
+    @FXML
+    private ComboBox<Service> Service_Combo;
+
+    private Service Service_Selected;
+
+    public Service getServiceSelected() {
+        return this.Service_Selected;
+    }
+
+    public void setServiceSelected(Service service) {
+        this.Service_Selected = service;
+    }
 
     @Override // This method is called by the FXMLLoader when initialization is complete
     public void initialize (URL fxmlFileLocation, ResourceBundle resources) {
@@ -41,6 +56,15 @@ public class Controller implements Initializable {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
+            }
+        });
+
+
+        Service_Combo.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                Service combo_select = Service_Combo.getValue();
+                setServiceSelected(combo_select);
             }
         });
     }
