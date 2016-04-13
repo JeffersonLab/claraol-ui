@@ -5,26 +5,32 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="163.0" prefWidth="379.0" style="-fx-background-color: #181818;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="193.0" prefWidth="379.0" style="-fx-background-color: #181818;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <HBox alignment="CENTER_LEFT" layoutY="1.0" prefHeight="28.0" prefWidth="378.0" style="-fx-border-color: transparent transparent #b8b8b8 transparent; -fx-background-color: #232323;">
          <children>
             <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="356.0" text="Engine Configuration" textFill="#dddddd" />
          </children>
       </HBox>
-      <Button layoutX="10.0" layoutY="122.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="99.0" stylesheets="@../action/button.css" text="Okay" />
-      <TextField alignment="CENTER_RIGHT" layoutX="113.0" layoutY="44.0" prefHeight="28.0" prefWidth="246.0" promptText="Output Data Value Display/Link..." style="-fx-background-color: #232323; -fx-border-color: #b8b8b8; -fx-text-fill: #FFFFFF;" />
-      <Label alignment="CENTER_RIGHT" layoutX="48.0" layoutY="49.0" prefHeight="18.0" prefWidth="55.0" text="Output" textAlignment="CENTER" textFill="#e4e4e4">
+      <Button layoutX="9.0" layoutY="148.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="99.0" stylesheets="@../action/button.css" text="Okay" />
+      <TextField alignment="CENTER_RIGHT" layoutX="119.0" layoutY="74.0" prefHeight="28.0" prefWidth="246.0" promptText="Output Data Value Display/Link..." style="-fx-background-color: #232323; -fx-border-color: #b8b8b8; -fx-text-fill: #FFFFFF;" />
+      <Label alignment="CENTER_RIGHT" layoutX="54.0" layoutY="79.0" prefHeight="18.0" prefWidth="55.0" text="Output" textAlignment="CENTER" textFill="#e4e4e4">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label alignment="CENTER_RIGHT" layoutX="48.0" layoutY="87.0" prefHeight="18.0" prefWidth="55.0" text="Input" textAlignment="CENTER" textFill="#e4e4e4">
+      <Label alignment="CENTER_RIGHT" layoutX="54.0" layoutY="117.0" prefHeight="18.0" prefWidth="55.0" text="Input" textAlignment="CENTER" textFill="#e4e4e4">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField alignment="CENTER_RIGHT" layoutX="112.0" layoutY="82.0" prefHeight="28.0" prefWidth="246.0" promptText="Input Data Value Display/Link..." style="-fx-background-color: #232323; -fx-border-color: #b8b8b8; -fx-text-fill: #FFFFFF;" />
-      <Button layoutX="119.0" layoutY="121.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="99.0" stylesheets="@../action/button.css" text="Cancel" />
+      <TextField alignment="CENTER_RIGHT" layoutX="118.0" layoutY="112.0" prefHeight="28.0" prefWidth="246.0" promptText="Input Data Value Display/Link..." style="-fx-background-color: #232323; -fx-border-color: #b8b8b8; -fx-text-fill: #FFFFFF;" />
+      <Button layoutX="118.0" layoutY="147.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="99.0" stylesheets="@../action/button.css" text="Cancel" />
+      <Label alignment="CENTER_RIGHT" layoutX="54.0" layoutY="43.0" prefHeight="18.0" prefWidth="55.0" text="Name" textAlignment="CENTER" textFill="#e4e4e4">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField alignment="CENTER_RIGHT" layoutX="119.0" layoutY="38.0" prefHeight="28.0" prefWidth="246.0" promptText="Name of the Engine configuration" style="-fx-background-color: #232323; -fx-border-color: #b8b8b8; -fx-text-fill: #FFFFFF;" />
    </children>
 </Pane>
