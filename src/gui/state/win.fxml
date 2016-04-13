@@ -21,6 +21,6 @@
       <Label alignment="CENTER_RIGHT" layoutY="84.0" prefHeight="16.0" prefWidth="77.0" text="Severity:" textFill="#d7d7d7" />
       <Label alignment="CENTER_RIGHT" layoutY="125.0" prefHeight="16.0" prefWidth="77.0" text="Severity ID:" textFill="#d7d7d7" />
       <TextField alignment="CENTER" layoutX="87.0" layoutY="120.0" prefHeight="26.0" prefWidth="147.0" promptText="&lt;severityID&gt;" style="-fx-background-color: #202020; -fx-border-color: #b8b8b8; -fx-text-fill: #FFFFFF;" />
-      <Button layoutX="10.0" layoutY="161.0" mnemonicParsing="false" stylesheets="@../action/button.css" text="Okay" />
+      <Button layoutX="140.0" layoutY="159.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="94.0" stylesheets="@../action/button.css" text="Okay" />
    </children>
 </Pane>
