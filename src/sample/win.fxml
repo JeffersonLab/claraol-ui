@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.net.*?>
 <?import java.lang.*?>
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.control.*?>
@@ -11,7 +12,7 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="700.0" style="-fx-background-color: #181818;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-       <ToolBar prefHeight="18.0" prefWidth="700.0" style="-fx-background-color: #484848; -fx-border-color: transparent transparent #888888 transparent;" stylesheets="@style-Buttons.css">
+       <ToolBar prefHeight="18.0" prefWidth="700.0" style="-fx-background-color: #303030; -fx-border-color: transparent transparent #888888 transparent;" stylesheets="@style-Buttons.css">
           <items>
             <HBox alignment="CENTER_RIGHT" prefHeight="28.0" prefWidth="168.0">
                <children>
@@ -36,15 +37,15 @@
           </items>
        </ToolBar>
        <Label layoutX="13.0" layoutY="50.0" prefHeight="84.0" prefWidth="201.0" text="You should select a service below, and to the left are actions on the service. If you select a service in will open that service's options in another window." textAlignment="CENTER" textFill="WHITE" wrapText="true" />
-       <ComboBox fx:id="Services_Combo" layoutX="36.0" layoutY="144.0" prefHeight="26.0" prefWidth="156.0" promptText="Select a Service" stylesheets="@style-Combobox.css" />
+       <ComboBox fx:id="Services_Combo" layoutX="36.0" layoutY="144.0" prefHeight="36.0" prefWidth="156.0" promptText="Select a Service" style="-fx-background-color: #303030;" stylesheets="@../gui/service/combobox.css" />
        <Label alignment="CENTER_RIGHT" layoutX="318.0" layoutY="210.0" prefHeight="18.0" prefWidth="95.0" text="Composition:" textFill="WHITE">
            <font>
              <Font size="14.0" />
            </font>
        </Label>
-       <TextField alignment="CENTER_RIGHT" editable="false" layoutX="421.0" layoutY="206.0" prefHeight="26.0" prefWidth="265.0" promptText="The String Composition will go in here" style="-fx-background-color: #383838; -fx-border-color: #c8c8c8;" />
+       <TextField alignment="CENTER_RIGHT" editable="false" layoutX="421.0" layoutY="206.0" prefHeight="26.0" prefWidth="265.0" promptText="The String Composition will go in here" style="-fx-background-color: #303030; -fx-border-color: #c8c8c8;" />
        <Label alignment="CENTER_RIGHT" layoutX="299.0" layoutY="244.0" prefHeight="26.0" prefWidth="114.0" text="Service Selected: " textFill="WHITE" />
-       <TextField alignment="CENTER_RIGHT" editable="false" layoutX="421.0" layoutY="244.0" prefHeight="26.0" prefWidth="265.0" promptText="This is the Service you Selected" style="-fx-background-color: #383838; -fx-border-color: #c8c8c8;" />
+       <TextField alignment="CENTER_RIGHT" editable="false" layoutX="421.0" layoutY="244.0" prefHeight="26.0" prefWidth="265.0" promptText="This is the Service you Selected" style="-fx-background-color: #303030; -fx-border-color: #c8c8c8;" />
        <Button fx:id="Open_services" layoutX="494.0" layoutY="298.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="192.0" style="-fx-border-radius: 12px;" styleClass="last" stylesheets="@style-Buttons.css" text="Advanced Service Options" textAlignment="CENTER" textFill="WHITE">
            <font>
              <Font size="12.0" />
@@ -61,7 +62,7 @@
          </font>
       </Button>
       <Line endX="210.0" fill="WHITE" layoutX="181.0" layoutY="198.0" rotate="90.0" startX="-100.0" stroke="#888888" />
-      <TextField alignment="CENTER_RIGHT" editable="false" layoutX="421.0" layoutY="64.0" prefHeight="26.0" prefWidth="265.0" promptText="Start Action Value" style="-fx-background-color: #383838; -fx-border-color: #c8c8c8;" />
+      <TextField alignment="CENTER_RIGHT" editable="false" layoutX="421.0" layoutY="64.0" prefHeight="26.0" prefWidth="265.0" promptText="Start Action Value" style="-fx-background-color: #303030; -fx-border-color: #c8c8c8;" />
       <Label alignment="CENTER_RIGHT" layoutX="318.0" layoutY="68.0" prefHeight="18.0" prefWidth="95.0" text="Stop Action:" textFill="WHITE">
          <font>
             <Font size="14.0" />
@@ -72,8 +73,8 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField alignment="CENTER_RIGHT" editable="false" layoutX="421.0" layoutY="102.0" prefHeight="26.0" prefWidth="265.0" promptText="Stop Action Value" style="-fx-background-color: #383838; -fx-border-color: #c8c8c8;" />
-      <TextField alignment="CENTER_RIGHT" editable="false" layoutX="421.0" layoutY="140.0" prefHeight="26.0" prefWidth="265.0" promptText="Skip Action Value" style="-fx-background-color: #383838; -fx-border-color: #c8c8c8;" />
+      <TextField alignment="CENTER_RIGHT" editable="false" layoutX="421.0" layoutY="102.0" prefHeight="26.0" prefWidth="265.0" promptText="Stop Action Value" style="-fx-background-color: #303030; -fx-border-color: #c8c8c8;" />
+      <TextField alignment="CENTER_RIGHT" editable="false" layoutX="421.0" layoutY="140.0" prefHeight="26.0" prefWidth="265.0" promptText="Skip Action Value" style="-fx-background-color: #303030; -fx-border-color: #c8c8c8;" />
       <Label alignment="CENTER_RIGHT" layoutX="318.0" layoutY="144.0" prefHeight="18.0" prefWidth="95.0" text="Skip Action:" textFill="WHITE">
          <font>
             <Font size="14.0" />
