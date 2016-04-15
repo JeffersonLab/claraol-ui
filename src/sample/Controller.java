@@ -51,7 +51,7 @@ public class Controller implements Initializable {
             }
         });
 
-
+/*
         Service_Combo.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
@@ -59,5 +59,6 @@ public class Controller implements Initializable {
                 setServiceSelected(combo_select);
             }
         });
+        */
     }
 }
