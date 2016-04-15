@@ -23,15 +23,7 @@ public class Controller implements Initializable {
     @FXML
     private ComboBox<Service> Service_Combo;
 
-    private Service Service_Selected;
 
-    public Service getServiceSelected() {
-        return this.Service_Selected;
-    }
-
-    public void setServiceSelected(Service service) {
-        this.Service_Selected = service;
-    }
 
     @Override // This method is called by the FXMLLoader when initialization is complete
     public void initialize (URL fxmlFileLocation, ResourceBundle resources) {
