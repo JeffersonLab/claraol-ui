@@ -131,7 +131,7 @@ public class Application implements gui.backend.Application {
 
     @Override
     public void setStartAction(Action newHasStartAction) {
-        this.start = newHasStartAction
+        this.start = newHasStartAction;
     }
 
     @Override
