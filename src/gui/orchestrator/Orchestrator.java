@@ -126,6 +126,6 @@ public class Orchestrator implements gui.backend.Orchestrator {
 
     @Override
     public void delete() {
-        
+
     }
 }
