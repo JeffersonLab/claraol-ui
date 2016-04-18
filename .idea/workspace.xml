@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e0502c6-7dba-468d-9013-d224fd6b1dd2" name="Default" comment="Service concrete class">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/orchestrator/Orchestrator.java" afterPath="$PROJECT_DIR$/src/gui/orchestrator/Orchestrator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/service/myService.java" afterPath="$PROJECT_DIR$/src/gui/service/myService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/service/service.fxml" afterPath="$PROJECT_DIR$/src/gui/service/service.fxml" />
     </list>
     <ignored path="claraol-ui.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -119,11 +117,12 @@
       <file leaf-file-name="myService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gui/service/myService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56363636">
-              <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+            <state vertical-scroll-proportion="1.3090909">
+              <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1260#1261#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1117#1118#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1246,11 +1245,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/service/myService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56363636">
-          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+        <state vertical-scroll-proportion="1.3090909">
+          <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -8,8 +8,7 @@ import java.util.List;
 
 public class myService implements Service {
 
-    private     Condition               selectedCondition       = null;
-    private     State                   selectedState           = null;
+
     private     ServiceConfig           currentConfig           = null;
     private     Engine                  currentEngine           = null;
     private     Identity                id                      = null;
@@ -35,7 +34,7 @@ public class myService implements Service {
 
     @Override
     public boolean hasCondition() {
-        return this.selectedCondition != null;
+        return !this.conditionsList.isEmpty();
     }
 
     @Override
@@ -93,9 +92,7 @@ public class myService implements Service {
     public void setIdentity(Identity newHasIdentity) {
         this.id = newHasIdentity;
     }
-
-
-
+    
 
     @Override
     public Collection<? extends Service> getLinks() {
@@ -125,7 +122,7 @@ public class myService implements Service {
 
     @Override
     public boolean hasState() {
-        return selectedState != null;
+        return !this.stateList.isEmpty();
     }
 
     @Override
@@ -189,8 +186,6 @@ public class myService implements Service {
         this.container = null;
         this.currentConfig = null;
         this.dpe = null;
-        this.selectedCondition = null;
-        this.selectedState = null;
         this.currentEngine = null;
     }
 }
