@@ -22,6 +22,7 @@
 
 package gui.backend;
 
+import gui.service.Service;
 import java.util.Collection;
 
 /**

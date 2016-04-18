@@ -23,6 +23,8 @@
 package gui.backend;
 
 
+import gui.service.Service;
+import gui.action.Action;
 import java.util.Collection;
 
 /**
