@@ -1,25 +1,21 @@
 package gui.service;
 
 import gui.backend.*;
-import sun.awt.image.ImageWatched;
 
 import java.util.Collection;
 import java.util.ArrayList;
 
-public class Service implements gui.backend.Service {
+public class myService implements gui.backend.Service {
 
-    private     Service                 selectedService         = null;
     private     Condition               selectedCondition       = null;
     private     State                   selectedState           = null;
     private     ServiceConfig           currentConfig           = null;
     private     Engine                  currentEngine           = null;
     private     Identity                id                      = null;
 
-    private     Service                 link                    = null;
-
-    private     ArrayList< Condition >  conditionsList          = new ArrayList<    Condition   >();
-    private     ArrayList< Service   >  linksList               = new ArrayList<    Service     >();
-    private     ArrayList< State     >  stateList               = new ArrayList<    State       >();
+    private     ArrayList< Condition >  conditionsList          = new ArrayList<>();
+    private     ArrayList<Service>  linksList                   = new ArrayList<>();
+    private     ArrayList< State>  stateList                    = new ArrayList<>();
 
     private     String                  container               = null;
     private     String                  dpe                     = null;
@@ -198,20 +194,17 @@ public class Service implements gui.backend.Service {
         this.id = newHasIdentity;
     }
 
+
+
+
     @Override
     public Collection<? extends Service> getLinks() {
-
-
-        this.linksList.add(selectedService);
-        this.linksList.add(new Service());
-        this.linksList.add(new Service());
-
-        return this.linksList;
+        return linksList;
     }
 
     @Override
     public boolean hasLink() {
-        return this.link != null;
+        return !linksList.isEmpty();
     }
 
     @Override
@@ -222,6 +215,7 @@ public class Service implements gui.backend.Service {
     @Override
     public void removeLink(Service oldHasLink) {
         linksList.remove(oldHasLink);
+
     }
 
     @Override
@@ -296,7 +290,6 @@ public class Service implements gui.backend.Service {
         this.currentConfig = null;
         this.dpe = null;
         this.selectedCondition = null;
-        this.selectedService = null;
         this.selectedState = null;
         this.currentEngine = null;
     }

@@ -23,7 +23,7 @@
 package gui.backend;
 
 
-import gui.service.Service;
+import gui.service.myService;
 import gui.action.Action;
 import java.util.Collection;
 
@@ -44,7 +44,7 @@ public interface Application {
      * 
      * @return a value for the hasEventSink property.
      */
-    Service getEventSink();
+    myService getEventSink();
 
     /**
      * Checks if the class has a hasEventSink property value.<p>
@@ -58,7 +58,7 @@ public interface Application {
      * 
      * @param newHasEventSink the hasEventSink property value to be added
      */
-    void setEventSink(Service newHasEventSink);
+    void setEventSink(myService newHasEventSink);
 
 
 
@@ -71,7 +71,7 @@ public interface Application {
      * 
      * @return a value for the hasEventSource property.
      */
-    Service getEventSource();
+    myService getEventSource();
 
     /**
      * Checks if the class has a hasEventSource property value.<p>
@@ -85,7 +85,7 @@ public interface Application {
      * 
      * @param newHasEventSource the hasEventSource property value to be added
      */
-    void setEventSource(Service newHasEventSource);
+    void setEventSource(myService newHasEventSource);
 
 
     /* ***************************************************
@@ -122,7 +122,7 @@ public interface Application {
      * 
      * @return a value for the hasService property.
      */
-    Collection<? extends Service> getServices();
+    Collection<? extends myService> getServices();
 
     /**
      * Checks if the class has a hasService property value.<p>
@@ -136,14 +136,14 @@ public interface Application {
      * 
      * @param newHasService the hasService property value to be added
      */
-    void addService(Service newHasService);
+    void addService(myService newHasService);
 
     /**
      * Removes a hasService property value.<p>
      * 
      * @param oldHasService the hasService property value to be removed.
      */
-    void removeService(Service oldHasService);
+    void removeService(myService oldHasService);
 
 
     /* ***************************************************

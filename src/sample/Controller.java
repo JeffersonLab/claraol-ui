@@ -55,7 +55,7 @@ public class Controller implements Initializable {
         Service_Combo.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                Service combo_select = Service_Combo.getValue();
+                myService combo_select = Service_Combo.getValue();
                 setServiceSelected(combo_select);
             }
         });

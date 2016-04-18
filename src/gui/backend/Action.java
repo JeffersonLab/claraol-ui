@@ -22,7 +22,8 @@
 
 package gui.backend;
 
-import gui.service.Service;
+import gui.service.myService;
+
 import java.util.Collection;
 
 /**
@@ -100,7 +101,7 @@ public interface Action {
      * 
      * @return a collection of values for the sendsTo property.
      */
-    Collection<? extends Service> getSendsTo();
+    Collection<? extends myService> getSendsTo();
 
     /**
      * Checks if the class has a sendsTo property value.<p>
@@ -114,14 +115,14 @@ public interface Action {
      * 
      * @param newSendsTo the sendsTo property value to be added
      */
-    void addSendsTo(Service newSendsTo);
+    void addSendsTo(myService newSendsTo);
 
     /**
      * Removes a sendsTo property value.<p>
      * 
      * @param oldSendsTo the sendsTo property value to be removed.
      */
-    void removeSendsTo(Service oldSendsTo);
+    void removeSendsTo(myService oldSendsTo);
 
 
     void delete();

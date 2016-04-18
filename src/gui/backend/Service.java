@@ -166,14 +166,14 @@ public interface Service {
      * 
      * @param newHasLink the hasLink property value to be added
      */
-    void addLink(gui.service.Service newHasLink);
+    void addLink(Service newHasLink);
 
     /**
      * Removes a hasLink property value.<p>
      * 
      * @param oldHasLink the hasLink property value to be removed.
      */
-    void removeLink(gui.service.Service oldHasLink);
+    void removeLink(Service oldHasLink);
 
 
     /* ***************************************************

@@ -1,7 +1,8 @@
 package gui.action;
 
 import gui.backend.*;
-import gui.service.Service;
+import gui.service.myService;
+
 import java.util.ArrayList;
 import java.util.Collection;
 
@@ -9,7 +10,7 @@ public class Action implements gui.backend.Action {
 
     private     String                  name            = null;
     private     ArrayList <DataSource>  dataSourceList  = new ArrayList<DataSource>();
-    private     ArrayList <Service>     serviceList     = new ArrayList<Service>();
+    private     ArrayList <myService>     serviceList     = new ArrayList<myService>();
 
     /*
          When full backend implementation comes around
@@ -52,7 +53,7 @@ public class Action implements gui.backend.Action {
     }
 
     @Override
-    public Collection<? extends Service> getSendsTo() {
+    public Collection<? extends myService> getSendsTo() {
         return this.serviceList;
     }
 
@@ -62,12 +63,12 @@ public class Action implements gui.backend.Action {
     }
 
     @Override
-    public void addSendsTo(Service newSendsTo) {
+    public void addSendsTo(myService newSendsTo) {
         this.serviceList.add(newSendsTo);
     }
 
     @Override
-    public void removeSendsTo(Service oldSendsTo) {
+    public void removeSendsTo(myService oldSendsTo) {
         this.serviceList.remove(oldSendsTo);
     }
 
