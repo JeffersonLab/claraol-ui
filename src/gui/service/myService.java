@@ -4,8 +4,9 @@ import gui.backend.*;
 
 import java.util.Collection;
 import java.util.ArrayList;
+import java.util.List;
 
-public class myService implements gui.backend.Service {
+public class myService implements Service {
 
     private     Condition               selectedCondition       = null;
     private     State                   selectedState           = null;
@@ -13,9 +14,9 @@ public class myService implements gui.backend.Service {
     private     Engine                  currentEngine           = null;
     private     Identity                id                      = null;
 
-    private     ArrayList< Condition >  conditionsList          = new ArrayList<>();
-    private     ArrayList<Service>  linksList                   = new ArrayList<>();
-    private     ArrayList< State>  stateList                    = new ArrayList<>();
+    private     List<Condition>         conditionsList          = new ArrayList<>();
+    private     List<Service>           linksList               = new ArrayList<>();
+    private     List<State>             stateList               = new ArrayList<>();
 
     private     String                  container               = null;
     private     String                  dpe                     = null;
