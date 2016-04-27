@@ -23,8 +23,9 @@
 package gui.backend;
 
 
+import gui.action.myAction;
 import gui.service.myService;
-import gui.action.Action;
+
 import java.util.Collection;
 
 /**
@@ -155,7 +156,7 @@ public interface Application {
      * 
      * @return a value for the hasSkipAction property.
      */
-    Action getSkipAction();
+    myAction getSkipAction();
 
     /**
      * Checks if the class has a hasSkipAction property value.<p>
@@ -169,7 +170,7 @@ public interface Application {
      * 
      * @param newHasSkipAction the hasSkipAction property value to be added
      */
-    void setSkipAction(Action newHasSkipAction);
+    void setSkipAction(myAction newHasSkipAction);
 
 
     /* ***************************************************
@@ -181,7 +182,7 @@ public interface Application {
      * 
      * @return a value for the hasStartAction property.
      */
-    Action getStartAction();
+    myAction getStartAction();
 
     /**
      * Checks if the class has a hasStartAction property value.<p>
@@ -195,7 +196,7 @@ public interface Application {
      * 
      * @param newHasStartAction the hasStartAction property value to be added
      */
-    void setStartAction(Action newHasStartAction);
+    void setStartAction(myAction newHasStartAction);
 
 
     /* ***************************************************
@@ -207,7 +208,7 @@ public interface Application {
      * 
      * @return a value for the hasStopAction property.
      */
-    Action getStopAction();
+    myAction getStopAction();
 
     /**
      * Checks if the class has a hasStopAction property value.<p>
@@ -221,7 +222,7 @@ public interface Application {
      * 
      * @param newHasStopAction the hasStopAction property value to be added
      */
-    void setStopAction(Action newHasStopAction);
+    void setStopAction(myAction newHasStopAction);
 
 
     /* ***************************************************

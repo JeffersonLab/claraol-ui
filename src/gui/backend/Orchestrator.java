@@ -22,7 +22,7 @@
 
 package gui.backend;
 
-import gui.action.Action;
+import gui.action.myAction;
 
 /**
  * 
@@ -66,7 +66,7 @@ public interface Orchestrator {
      * 
      * @return a values for the actsOnError property.
      */
-    Action getActsOnError();
+    myAction getActsOnError();
 
     /**
      * Checks if the class has a actsOnError property value.<p>
@@ -80,7 +80,7 @@ public interface Orchestrator {
      * 
      * @param newActsOnError the actsOnError property value to be added
      */
-    void setActsOnError(Action newActsOnError);
+    void setActsOnError(myAction newActsOnError);
 
 
     /* ***************************************************
@@ -92,7 +92,7 @@ public interface Orchestrator {
      * 
      * @return a value for the actsOnWarning property.
      */
-    Action getActsOnWarning();
+    myAction getActsOnWarning();
 
     /**
      * Checks if the class has a actsOnWarning property value.<p>
@@ -106,7 +106,7 @@ public interface Orchestrator {
      * 
      * @param newActsOnWarning the actsOnWarning property value to be added
      */
-    void setActsOnWarning(Action newActsOnWarning);
+    void setActsOnWarning(myAction newActsOnWarning);
 
 
     /* ***************************************************

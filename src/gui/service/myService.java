@@ -1,7 +1,6 @@
 package gui.service;
 
 import gui.backend.*;
-
 import java.util.Collection;
 import java.util.ArrayList;
 import java.util.List;
