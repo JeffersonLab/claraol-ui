@@ -16,7 +16,7 @@ public class Main {
         Stage primaryStage = new Stage();
 
         // Designate design and initial consitions for the primary stage.
-        primaryStage.setTitle("Action");
+        primaryStage.setTitle("myAction");
         primaryStage.setScene(new Scene(root, 350, 349, Color.TRANSPARENT));
         primaryStage.initStyle(StageStyle.TRANSPARENT);
 
