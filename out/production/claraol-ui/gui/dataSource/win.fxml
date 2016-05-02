@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<!--   Height: 191.0  Width: 330.0 -->
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="199.0" prefWidth="419.0" style="-fx-background-color: #181818;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="26.0" prefWidth="419.0" style="-fx-border-color: transparent transparent #B8B8B8 transparent; -fx-background-color: #282828;">
+         <children>
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="399.0" text="Data Source" textFill="#eeeeee" />
+         </children>
+      </HBox>
+      <TextField alignment="CENTER_RIGHT" layoutX="83.0" layoutY="43.0" prefHeight="26.0" prefWidth="311.0" promptText="Clara Data type" style="-fx-background-color: #282828; -fx-border-color: #B8B8B8; -fx-text-fill: #FFFFFF;">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="48.0" prefHeight="16.0" prefWidth="60.0" text="Type" textFill="WHITE" />
+      <TextField alignment="CENTER_RIGHT" layoutX="83.0" layoutY="81.0" prefHeight="26.0" prefWidth="311.0" promptText="String value" style="-fx-background-color: #282828; -fx-border-color: #B8B8B8; -fx-text-fill: #FFFFFF;">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="86.0" prefHeight="16.0" prefWidth="60.0" text="Value" textFill="WHITE" />
+      <Button layoutX="14.0" layoutY="154.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="94.0" stylesheets="@../action/button.css" text="Okay" />
+      <Button layoutX="114.0" layoutY="154.0" mnemonicParsing="false" stylesheets="@../action/button.css" text="Cancel" />
+      <CheckBox layoutX="241.0" layoutY="160.0" mnemonicParsing="false" stylesheets="@checkbox.css" text="Directory" textFill="WHITE" />
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="122.0" prefHeight="16.0" prefWidth="60.0" text="Identity" textFill="WHITE" />
+      <TextField alignment="CENTER_RIGHT" layoutX="83.0" layoutY="117.0" prefHeight="26.0" prefWidth="311.0" promptText="Identity Name" style="-fx-background-color: #282828; -fx-border-color: #B8B8B8; -fx-text-fill: #FFFFFF;">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <CheckBox layoutX="344.0" layoutY="160.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="53.0" stylesheets="@checkbox.css" text="File" textFill="WHITE" />
+   </children>
+</Pane>

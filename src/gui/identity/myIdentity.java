@@ -14,6 +14,16 @@ public class myIdentity implements Identity {
     private String      name             = null;
     private String      version          = null;
 
+    public myIdentity(String name,      String author,
+                      String version,   String Description) {
+
+        this.author = author;
+        this.name = name;
+        this.version = version;
+        this.Description = Description;
+
+    }
+
     @Override
     public String getAuthor() {
         return this.author;

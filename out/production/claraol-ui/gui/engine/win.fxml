@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="247.0" prefWidth="453.0" style="-fx-background-color: #181818;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="28.0" prefWidth="453.0" style="-fx-border-color: transparent transparent #b8b8b8 transparent; -fx-background-color: #282828;">
+         <children>
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="420.0" text="Engine" textFill="#d7d7d7">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+         </children>
+      </HBox>
+      <Button layoutX="242.0" layoutY="202.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="96.0" stylesheets="@../action/button.css" text="Cancel" />
+      <Button layoutX="344.0" layoutY="202.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="96.0" stylesheets="@../action/button.css" text="Okay" />
+      <TextField alignment="CENTER_RIGHT" layoutX="68.0" layoutY="203.0" prefHeight="28.0" prefWidth="168.0" promptText="Identity Name" style="-fx-background-color: #282828; -fx-border-color: #c8c8c8; -fx-text-fill: #FFFFFF;" />
+      <Label alignment="CENTER_RIGHT" layoutX="15.0" layoutY="209.0" prefHeight="16.0" prefWidth="47.0" text="Identity" textFill="WHITE" />
+      <Line endX="340.0" layoutX="113.0" layoutY="175.0" startX="-111.0" stroke="WHITE" />
+      <ComboBox layoutX="10.0" layoutY="43.0" prefHeight="34.0" prefWidth="435.0" promptText="Libraries" style="-fx-border-color: #181818;" stylesheets="@../service/combobox.css" />
+      <ComboBox layoutX="10.0" layoutY="86.0" prefHeight="34.0" prefWidth="435.0" promptText="Library Paths" style="-fx-border-color: #181818;" stylesheets="@../service/combobox.css" />
+      <ComboBox layoutX="9.0" layoutY="129.0" prefHeight="34.0" prefWidth="435.0" promptText="Engine Configurations" style="-fx-border-color: #181818;" stylesheets="@../service/combobox.css" />
+   </children>
+</Pane>

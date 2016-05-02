@@ -1,6 +1,8 @@
 package gui.service;
 
 import gui.backend.*;
+import gui.identity.myIdentity;
+
 import java.util.Collection;
 import java.util.ArrayList;
 import java.util.List;
@@ -25,6 +27,11 @@ public class myService implements Service {
            When Full implementation comes around, you will add
            a constructor that will populate the ArrayLists.
      */
+
+    public myService(String name, String author, String version, String Description) {
+        id = new myIdentity(name, author, version, Description);
+        this.setIdentity(id);
+    }
 
     @Override
     public Collection<? extends Condition> getConditions() {

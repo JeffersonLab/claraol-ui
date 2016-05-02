@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="307.0" prefWidth="424.0" style="-fx-background-color: #080808;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="25.0" prefWidth="424.0" style="-fx-background-color: #282828; -fx-border-color: transparent transparent #888888 transparent;">
+         <children>
+            <Label alignment="CENTER_RIGHT" prefHeight="16.0" prefWidth="407.0" text="Condition" textFill="#b8b8b8" />
+         </children>
+      </HBox>
+      <HBox layoutX="14.0" layoutY="123.0" prefHeight="57.0" prefWidth="395.0" style="-fx-border-color: #B8B8B8 transparent #B8B8B8 transparent;">
+         <children>
+            <Label prefHeight="55.0" prefWidth="403.0" text="Will send a service based on whether the underlying condition is true or false." textAlignment="CENTER" textFill="#b8b8b8" wrapText="true" />
+         </children>
+      </HBox>
+      <Button layoutX="7.0" layoutY="269.0" mnemonicParsing="false" stylesheets="@../action/button.css" text="Cancel" />
+      <Label alignment="CENTER_RIGHT" layoutX="83.0" layoutY="62.0" prefHeight="16.0" prefWidth="129.0" text="Logical Relationship:" textFill="#b8b8b8" />
+      <TextField alignment="CENTER_RIGHT" layoutX="220.0" layoutY="56.0" prefHeight="28.0" prefWidth="191.0" promptText="claraLogic" style="-fx-background-color: #181818; -fx-border-color: #B8B8B8; -fx-text-fill: #B8B8B8;" />
+      <TextField alignment="CENTER_RIGHT" layoutX="220.0" layoutY="188.0" prefHeight="28.0" prefWidth="191.0" promptText="Display/Link of Exec State..." style="-fx-background-color: #181818; -fx-border-color: #B8B8B8; -fx-text-fill: #B8B8B8;" />
+      <Label alignment="CENTER_RIGHT" layoutX="114.0" layoutY="194.0" prefHeight="16.0" prefWidth="98.0" text="Execution State:" textFill="#b8b8b8" />
+      <Label alignment="CENTER_RIGHT" layoutX="114.0" layoutY="232.0" prefHeight="16.0" prefWidth="98.0" text="Recieve State:" textFill="#b8b8b8" />
+      <TextField alignment="CENTER_RIGHT" layoutX="220.0" layoutY="226.0" prefHeight="28.0" prefWidth="191.0" promptText="Display/Link of Rec State..." style="-fx-background-color: #181818; -fx-border-color: #B8B8B8; -fx-text-fill: #B8B8B8;" />
+      <Button layoutX="7.0" layoutY="232.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="94.0" stylesheets="@../action/button.css" text="Okay" />
+      <Label alignment="CENTER_RIGHT" layoutX="103.0" layoutY="272.0" prefHeight="28.0" prefWidth="310.0" text="This window takes the conditional states and applies them to the Service" textAlignment="CENTER" textFill="#b8b8b8" wrapText="true">
+         <font>
+            <Font name="System Bold" size="9.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

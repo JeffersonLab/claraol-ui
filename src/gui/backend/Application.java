@@ -24,6 +24,7 @@ package gui.backend;
 
 
 import gui.action.myAction;
+import gui.identity.myIdentity;
 import gui.service.myService;
 
 import java.util.Collection;
@@ -98,7 +99,7 @@ public interface Application {
      * 
      * @return a value for the hasIdentity property.
      */
-    Identity getIdentity();
+    myIdentity getIdentity();
 
     /**
      * Checks if the class has a hasIdentity property value.<p>
@@ -112,7 +113,7 @@ public interface Application {
      * 
      * @param newHasIdentity the hasIdentity property value to be added
      */
-    void setIdentity(Identity newHasIdentity);
+    void setIdentity(myIdentity newHasIdentity);
 
     /* ***************************************************
      * Property http://claraweb.jlab.org/ontology/2015/11/ClaraOL#hasService

@@ -2,28 +2,46 @@ package sample;
 
 
 import gui.action.myAction;
-import gui.backend.*;
+import gui.backend.Application;
 import gui.service.myService;
+import gui.identity.myIdentity;
 import java.util.ArrayList;
 import java.util.Collection;
 
 
 public class myApplication implements gui.backend.Application {
 
-    private myService selectedService = null;
-    private myService eventSink       = null;
-    private myService eventSource     = null;
+    private myService selectedService;
+    private myService eventSink;
+    private myService eventSource;
 
-    private Identity id             = null;
+    private myIdentity id;
 
-    private myAction skip             = null;
-    private myAction start            = null;
-    private myAction stop             = null;
-
+    private myAction skip;
+    private myAction start;
+    private myAction stop;
 
     private ArrayList<myService> dropDown = null;
-
     private String comp             = null;
+
+    public myApplication() {
+        this.selectedService = null;
+        this.eventSink = null;
+        this.eventSource = null;
+
+        this.id = null;
+
+        this.start = null;
+        this.skip = null;
+        this.stop = null;
+
+        this.dropDown = new ArrayList<myService>();
+        myService new_service = new myService(  "New Service", "System",
+                                                "0.0",
+                                                "Place Holder to" +
+                                                " select a new Service");
+        dropDown.add(new_service);
+    }
 
     @Override
     public myService getEventSink() {
@@ -56,7 +74,7 @@ public class myApplication implements gui.backend.Application {
     }
 
     @Override
-    public Identity getIdentity() {
+    public myIdentity getIdentity() {
         return this.id;
     }
 
@@ -66,7 +84,7 @@ public class myApplication implements gui.backend.Application {
     }
 
     @Override
-    public void setIdentity(Identity newHasIdentity) {
+    public void setIdentity(myIdentity newHasIdentity) {
         this.id = newHasIdentity;
     }
 

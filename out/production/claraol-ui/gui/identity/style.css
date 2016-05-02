@@ -1,0 +1,24 @@
+.text-area {
+    -fx-background-insets: 0;
+}
+
+.text-area .content {
+      -fx-background-color: #181818;
+      -fx-border-insets:    0.5;
+      -fx-border-color:     #B8B8B8;
+      -fx-border-radius:    0;
+}
+
+.text-area:focused .content {
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+.text-area:focused {
+    -fx-highlight-fill: #7ecfff;
+}
+
+.text-area .content {
+    -fx-padding: 10px;
+    -fx-text-fill: gray;
+    -fx-highlight-fill: #7ecfff;
+}

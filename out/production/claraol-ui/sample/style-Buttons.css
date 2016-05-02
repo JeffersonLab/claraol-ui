@@ -1,0 +1,32 @@
+
+.button {
+    -fx-background-color:
+        #000000,
+        #404040,
+        linear-gradient(to bottom, #303030 2%, #181818 98%);
+    -fx-background-insets: 0, 1 1 1 0, 2 1 1 1;
+    -fx-background-radius: 0;
+    -fx-padding: 0.4em 1.833333em 0.4em 1.833333em;
+}
+
+.button.first {
+    -fx-background-insets: 0, 1, 2 1 1 1;
+    -fx-background-radius: 9 0 0 9, 7 0 0 7, 7 0 0 7;
+}
+
+.button.last {
+    -fx-background-insets: 0, 1 1 1 0, 2 1 1 1;
+    -fx-background-radius: 0 9 9 0, 0 7 7 0, 0 7 7 0;
+}
+
+.button.singleplaced {
+    -fx-background-insets: 0, 1 1 1 0, 2 1 1 1;
+    -fx-background-radius: 9 9 9 9, 7 7 7 7, 7 7 7 7;
+}
+
+.button:pressed {
+    -fx-background-color:
+        #000000,
+        rgb(55, 57, 58),
+        linear-gradient(to top, #303030 2%, #181818 98%);
+}

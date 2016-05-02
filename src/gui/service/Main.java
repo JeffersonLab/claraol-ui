@@ -17,15 +17,7 @@ public class Main {
 
         // Designate design and initial consitions for the primary stage.
         primaryStage.setTitle("Clara");
-        primaryStage.setScene(new Scene(root, 350, 349, Color.TRANSPARENT));
-        primaryStage.initStyle(StageStyle.TRANSPARENT);
-
-        // Designate the positioning of the stage.
-        Rectangle2D primaryScreenBounds = Screen.getPrimary().getVisualBounds();
-        double x = (((0.95) * primaryScreenBounds.getWidth())-700), y = (0.93) * primaryScreenBounds.getHeight();
-        primaryStage.setX(primaryScreenBounds.getMinX() + primaryScreenBounds.getWidth() - x);
-        primaryStage.setY(primaryScreenBounds.getMinY() + primaryScreenBounds.getHeight() - y);
-
+        primaryStage.setScene(new Scene(root, 600, 331));
         return primaryStage;
     }
 }
