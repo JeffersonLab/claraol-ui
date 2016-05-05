@@ -22,6 +22,7 @@ public class myService implements Service {
     private     String                  dpe                     = null;
     private     Integer                 pool                    = null;
 
+    private     boolean                 isNew                   = false;
 
     /*
            When Full implementation comes around, you will add
@@ -31,6 +32,14 @@ public class myService implements Service {
     public myService(String name, String author, String version, String Description) {
         id = new myIdentity(name, author, version, Description);
         this.setIdentity(id);
+        this.isNew = true;
+    }
+
+    // constructor that takes no values.
+    public myService() { this.isNew = true; }
+
+    public boolean isNew() {
+        return this.isNew;
     }
 
     @Override
