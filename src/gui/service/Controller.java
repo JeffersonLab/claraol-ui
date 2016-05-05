@@ -5,6 +5,7 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
+import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
 import java.net.URL;
@@ -42,6 +43,7 @@ public class Controller implements Initializable {
     public myService CurrentService() {
         return this.currService;
     }
+
     @Override // This method is called by the FXMLLoader when initialization is complete
     public void initialize (URL fxmlFileLocation, ResourceBundle resources) {
         //assert close_button != null : "fx:id=\"myButton\" was not injected: check your FXML file 'service.fxml'.";
@@ -53,18 +55,50 @@ public class Controller implements Initializable {
 
         if (this.CurrentService().isNew()) {
             Status.setText("New Service");
+        } else {
+            //load data
         }
 
-        // Handel Identity
-        // Handel Container
-        // Handel Links
-        // Handel Conditions
-        // Handel Engine
-        // Handel Configuration
-        // Handel States
+        // Handle Identity
 
-        
+        this.Identity.setOnMousePressed(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                System.out.println(" Identity Clicked... ");
+            }
+        });
 
+        // Handle Links
+
+
+
+        // Handle Conditions
+
+
+
+        // Handle States
+
+
+
+        // Handle Engine
+
+        this.Engine.setOnMousePressed(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                System.out.println("Engine is Clicked");
+            }
+        });
+
+        // Handle Configuration
+
+        this.Service_Config.setOnMousePressed(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                System.out.println("Service Configuration Clicked");
+            }
+        });
+
+        // Button Listeners below.
         Okay.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
