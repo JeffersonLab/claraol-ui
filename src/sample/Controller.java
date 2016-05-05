@@ -78,7 +78,6 @@ public class Controller extends myApplication implements Initializable {
                         );
 
 
-                        System.out.println("Called");
                         fxmlLoader.setController(ctrl);
                         root = fxmlLoader.load();
                         Stage stage = Main.Win(root);
