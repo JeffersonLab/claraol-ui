@@ -13,7 +13,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
-import javafx.scene.control.*;;
+import javafx.scene.control.*;
 import javafx.stage.Stage;
 
 
@@ -51,7 +51,6 @@ public class Controller extends myApplication implements Initializable {
         assert start != null: "fx:id=\"start\" was not injected: check your FXML file 'service.fxml'.";
         assert stop != null: "fx:id=\"stop\" was not injected: check your FXML file 'service.fxml'.";
         assert skip != null: "fx:id=\"skip\" was not injected: check your FXML file 'service.fxml'.";
-        //assert action_pane != null: "fx:id=\"action_pane\" was not injected: check your FXML file 'service.fxml'.";
         assert select_service != null: "fx:id=\"select_service\" was not injected: check your FXML file 'service.fxml'.";
 
         updateComboBox();
@@ -63,11 +62,29 @@ public class Controller extends myApplication implements Initializable {
 
                 if (t.equals("New Service")) {
 
-                    Parent root;
+                    Parent root = null;
                     try {
-                        root = FXMLLoader.load(getClass().getResource("../gui/service/service.fxml"));
+
+                        gui.service.Controller ctrl =
+                                new gui.service.Controller();
+
+                        ctrl.setService( new myService( ) );
+
+
+                        FXMLLoader fxmlLoader = new FXMLLoader(
+                                getClass().getResource(
+                                        "../gui/service/service.fxml"
+                                )
+                        );
+
+
+                        System.out.println("Called");
+                        fxmlLoader.setController(ctrl);
+                        root = fxmlLoader.load();
                         Stage stage = Main.Win(root);
+
                         stage.show();
+
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
@@ -84,7 +101,7 @@ public class Controller extends myApplication implements Initializable {
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
-                    gui.service.Controller.loadData(service);
+                    //gui.service.Controller.loadData(service);
                 }
             }
         });
@@ -92,7 +109,7 @@ public class Controller extends myApplication implements Initializable {
         start.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-
+                System.out.println("Started the Application");
             }
         });
     }
