@@ -90,17 +90,7 @@ public class Controller extends myApplication implements Initializable {
 
 
                 } else {
-                    int idx = Services_Combo.getItems().indexOf(t);
-                    myService service = listing.get(idx);
-                    Parent root;
-                    try {
-                        root = FXMLLoader.load(getClass().getResource("../gui/service/service.fxml"));
-                        Stage stage = Main.Win(root);
-                        stage.show();
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                    //gui.service.Controller.loadData(service);
+                    // Use the selected service
                 }
             }
         });
