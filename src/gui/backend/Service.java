@@ -22,6 +22,9 @@
 
 package gui.backend;
 
+import gui.identity.myIdentity;
+import gui.service.myService;
+
 import java.util.Collection;
 
 /**
@@ -140,7 +143,7 @@ public interface Service {
      * 
      * @param newHasIdentity the hasIdentity property value to be added
      */
-    void setIdentity(Identity newHasIdentity);
+    void setIdentity(myIdentity newHasIdentity);
 
 
     /* ***************************************************
@@ -166,14 +169,14 @@ public interface Service {
      * 
      * @param newHasLink the hasLink property value to be added
      */
-    void addLink(Service newHasLink);
+    void addLink(myService newHasLink);
 
     /**
      * Removes a hasLink property value.<p>
      * 
      * @param oldHasLink the hasLink property value to be removed.
      */
-    void removeLink(Service oldHasLink);
+    void removeLink(myService oldHasLink);
 
 
     /* ***************************************************
