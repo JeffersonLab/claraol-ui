@@ -19,10 +19,10 @@
       <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="88.0" prefHeight="16.0" prefWidth="80.0" text="Name" textFill="#b8b8b8" />
       <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="121.0" prefHeight="16.0" prefWidth="80.0" text="Version" textFill="#b8b8b8" />
       <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="152.0" prefHeight="16.0" prefWidth="80.0" text="Description" textFill="#b8b8b8" />
-      <TextField alignment="CENTER" layoutX="112.0" layoutY="51.0" prefHeight="28.0" prefWidth="213.0" promptText="Author" style="-fx-background-color: #202020; -fx-border-color: #B8B8B8; -fx-text-fill: #F8F8F8;" />
-      <TextField alignment="CENTER" layoutX="112.0" layoutY="82.0" prefHeight="28.0" prefWidth="213.0" promptText="Name" style="-fx-background-color: #202020; -fx-border-color: #B8B8B8; -fx-text-fill: #F8F8F8;" />
-      <TextField alignment="CENTER" layoutX="112.0" layoutY="115.0" prefHeight="28.0" prefWidth="213.0" promptText="Version" style="-fx-background-color: #202020; -fx-border-color: #B8B8B8; -fx-text-fill: #F8F8F8;" />
-      <TextArea layoutX="112.0" layoutY="150.0" prefHeight="73.0" prefWidth="213.0" promptText="Description..." style="-fx-background-color: #202020; -fx-border-color: #b8b8b8;" stylesheets="@style.css" wrapText="true">
+      <TextField fx:id="Author" alignment="CENTER" layoutX="112.0" layoutY="51.0" prefHeight="28.0" prefWidth="213.0" promptText="Author" style="-fx-background-color: #202020; -fx-border-color: #B8B8B8; -fx-text-fill: #F8F8F8;" />
+      <TextField fx:id="Name" alignment="CENTER" layoutX="112.0" layoutY="82.0" prefHeight="28.0" prefWidth="213.0" promptText="Name" style="-fx-background-color: #202020; -fx-border-color: #B8B8B8; -fx-text-fill: #F8F8F8;" />
+      <TextField fx:id="Version" alignment="CENTER" layoutX="112.0" layoutY="115.0" prefHeight="28.0" prefWidth="213.0" promptText="Version" style="-fx-background-color: #202020; -fx-border-color: #B8B8B8; -fx-text-fill: #F8F8F8;" />
+      <TextArea  fx:id="Description" layoutX="112.0" layoutY="150.0" prefHeight="73.0" prefWidth="213.0" promptText="Description..." style="-fx-background-color: #202020; -fx-border-color: #b8b8b8;" stylesheets="@style.css" wrapText="true">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
@@ -30,12 +30,12 @@
             <Font size="11.0" />
          </font>
       </TextArea>
-      <Button layoutX="232.0" layoutY="233.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="94.0" stylesheets="@../action/button.css" text="Okay" />
+      <Button fx:id="Okay" layoutX="232.0" layoutY="233.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="94.0" stylesheets="@../action/button.css" text="Okay" />
       <Label alignment="CENTER" layoutX="6.0" layoutY="226.0" prefHeight="45.0" prefWidth="121.0" text="Identity window just displays identity values, and descriptions" textAlignment="CENTER" textFill="#b8b8b8" wrapText="true">
          <font>
             <Font size="10.0" />
          </font>
       </Label>
-      <Button layoutX="133.0" layoutY="233.0" mnemonicParsing="false" stylesheets="@../action/button.css" text="Cancel" />
+      <Button fx:id="Cancel" layoutX="133.0" layoutY="233.0" mnemonicParsing="false" stylesheets="@../action/button.css" text="Cancel" />
    </children>
 </Pane>
