@@ -8,7 +8,7 @@ import gui.backend.State;
  * @author dkroell
  * @version 4/27/2016.
  */
-public class myCondititon implements Condition {
+public class myCondition implements Condition {
 
     private String      name                    = null;
     private State       executionState          = null;
