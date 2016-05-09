@@ -14,6 +14,8 @@ public class myIdentity implements Identity {
     private String      name             = null;
     private String      version          = null;
 
+    public myIdentity() {}
+
     public myIdentity(String name,      String author,
                       String version,   String Description) {
 

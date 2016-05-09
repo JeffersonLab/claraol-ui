@@ -13,8 +13,8 @@ public class Main {
         Stage primaryStage = new Stage();
 
         // Designate design and initial consitions for the primary stage.
-        primaryStage.setTitle("Condition");
-        primaryStage.setScene(new Scene(root, 245, 424));
+        primaryStage.setTitle("Identity");
+        primaryStage.setScene(new Scene(root, 341, 275));
 
         return primaryStage;
     }
