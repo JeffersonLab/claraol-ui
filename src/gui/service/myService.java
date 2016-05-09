@@ -12,10 +12,10 @@ public class myService implements Service {
 
     private     ServiceConfig           currentConfig           = null;
     private     Engine                  currentEngine           = null;
-    private     Identity                id                      = null;
+    private     myIdentity               id                     = null;
 
     private     List<Condition>         conditionsList          = new ArrayList<>();
-    private     List<Service>           linksList               = new ArrayList<>();
+    private     List<myService>         linksList               = new ArrayList<>();
     private     List<State>             stateList               = new ArrayList<>();
 
     private     String                  container               = null;
@@ -23,6 +23,7 @@ public class myService implements Service {
     private     Integer                 pool                    = null;
 
     private     boolean                 isNew                   = false;
+    private     boolean                 link                    = false;
 
     /*
            When Full implementation comes around, you will add
@@ -36,8 +37,14 @@ public class myService implements Service {
     }
 
     // constructor that takes no values.
-    public myService() { this.isNew = true; }
+    public myService() { this.isNew = true; link = false; }
 
+    public void setUsed() { this.isNew = false; }
+    // Link determination
+    public void setIsLink(boolean b) { this.link = b; }
+    public boolean isLink() { return this.link; }
+
+    // Check if the service is new.
     public boolean isNew() {
         return this.isNew;
     }
@@ -104,7 +111,7 @@ public class myService implements Service {
     }
 
     @Override
-    public void setIdentity(Identity newHasIdentity) {
+    public void setIdentity(myIdentity newHasIdentity) {
         this.id = newHasIdentity;
     }
     
@@ -120,14 +127,13 @@ public class myService implements Service {
     }
 
     @Override
-    public void addLink(Service newHasLink) {
+    public void addLink(myService newHasLink) {
         linksList.add(newHasLink);
     }
 
     @Override
-    public void removeLink(Service oldHasLink) {
+    public void removeLink(myService oldHasLink) {
         linksList.remove(oldHasLink);
-
     }
 
     @Override
